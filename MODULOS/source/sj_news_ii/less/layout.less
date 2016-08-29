@@ -1,0 +1,318 @@
+/*******************************************
+***          YT Framework: less          ***
+*******************************************/
+
+// --* Layouts Templates *-----------------
+// ----------------------------------------
+/*   1.Block Header
+ *   2.Block Mainmenu
+ *   3.Block Slideshow
+ *   4.Block Breadcrumb
+ *   5.Block Main Content
+ *   6.Block Spotlight
+ *   7.Block Footer
+ *   8.Non-responsive
+ */
+
+html {background: #0f1112;}
+body{line-height: 20px;background-color: #fff; color: #666; font-size: 13px; overflow-x: hidden; }
+
+
+//1.Block Header
+#yt_header{padding: 30px 0 25px;
+	position: relative;
+	z-index: 15;
+	
+     .logo-text{
+          .site-text{font-size: 24px; font-weight: 600;}
+          .site-slogan{text-align: center;color: #999; min-width: 220px; letter-spacing:3px; font-size: 13px; margin-top: -3px;}
+     }
+	 
+}
+    
+
+//2.Block Mainmenu
+#yt_menuwrap{
+	position: relative;
+	z-index: 14;
+	margin: 0;
+	margin-bottom: 0px;
+	.container {
+        position: relative;
+		background: #222a33;
+		.box-shadow(0 1px 2px rgba(0,0,0,.34));
+	}
+    #yt_logo {
+        height: 100px;
+        background: @background1;
+		text-align: center;
+		overflow: hidden;
+		a.logo {
+			display: inline-block;
+			
+			height: 100px;
+		}
+    }
+	.logo img{
+		margin-top: 35px;
+		&:hover{.scale(1);}
+	}
+	#yt_mainmenu{position: static; padding: 0; border-top: 1px solid rgba(0,0,0,0.2);}
+    #top1 {position: relative; z-index: 999;}
+    #search{
+		position: absolute;
+		z-index: 99;
+		border-top: 1px solid rgba(0,0,0,0.2);
+		padding: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.module{margin: 0; float: right;
+		&.social,
+		&.language,
+		&.login {border-right: 1px solid rgba(0,0,0,0.2); padding: 0;}
+	}
+
+
+}
+
+
+//3.Block Slideshow
+#yt_slideshow{
+	position: relative;
+	z-index: 13;
+	margin-bottom: 30px;
+	background: @background1;
+	#slideshow {
+		.module{margin: 0;}
+	}
+}
+
+
+//4.Block Breadcrumb
+#yt_breadcrumb {
+	position: relative;
+	z-index: 12;}
+#shortcodes {
+    padding: 0;
+    .module {margin: 0;}
+}
+#breadcrumb{
+	background: #171d23;
+     .module{margin-bottom: 0px;}
+	 .breadcrumb{margin: 0;padding: 0px;
+         background: none;
+		 display: inline-block;
+		 
+		 .border-radius(0);
+		 li {line-height: 40px;}
+          a, span{
+			  line-height: 18px;
+			  display: inline-block;
+			   font-size: 11px;
+			   text-transform: uppercase;
+			   color: #ccc;
+			   &:hover {color: #fff;}
+          }
+          .divider{margin: 0 15px;vertical-align: middle;}
+          > li + li:before{display: none;}
+     }
+}
+
+//5.Block Main Content
+#content{
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+    #yt_component{background: @white; overflow: hidden;margin-bottom: 30px;}
+    #content_main {
+		&.lrm-m{
+			padding-right: 15px;
+			padding-left: 30px;
+		}
+		&.lmr-m{
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+        padding-top: 30px; padding-right: 30px;
+        &:before {
+            border-left: solid 1px #d7d7d7;
+            position: absolute;
+            top: -15px;
+            left: 0;
+            right: auto;
+            content: "";
+            height: 10000px;
+            
+        }
+        &:after {
+            border-right: solid 1px #d7d7d7;
+            position: absolute;
+            top: -15px;
+            right: 0;
+            left: auto;
+            content: "";
+            height: 10000px;
+        }
+    }
+	#content_left{
+		padding-top: 30px;
+		padding-right: 30px;
+		padding-left: 30px;
+		
+		&:before {
+			border-right: solid 1px #d7d7d7;
+			position: absolute;
+			top: -15px;
+			right: 0;
+			left: auto;
+			content: "";
+			height: 10000px;
+			
+		}
+	}
+	#content_left.lrm-l, #content_left.lmr-l {
+		padding-left: 15px;
+		&:before {
+						
+			left: 0;
+			right: auto;
+			
+			
+		}
+	}
+	#content_right.lrm-r {
+		padding-right: 30px;
+		&:before {
+			
+			left: 0;
+			right: auto;
+			
+			
+		}
+	}
+    #content_right {
+		padding-top: 30px;
+		padding-left: 30px;
+		
+		&:before {
+			border-right: solid 1px #d7d7d7;
+			position: absolute;
+			top: -15px;
+			right: 0;
+			left: auto;
+			content: "";
+			height: 10000px;
+			
+		}
+	}
+     #right {}
+}
+
+//6.Block Spotlight
+#yt_spotlight1 {
+	z-index: 12;
+	position: relative;
+	.container {
+        background: #171d23;
+	}
+	.top.module {margin: 0;}
+	
+}
+#yt_spotlight2 {
+	
+    .container {
+        border-left: 1px solid #d7d7d7;
+        border-right: 1px solid #d7d7d7;}
+}
+#yt_spotlight3 {
+	border-bottom: 2px solid #e1e1e1;
+	
+}
+#yt_spotlight4 {
+	background: #252e3b;
+	padding-top: 50px;
+	padding-bottom: 10px;
+    position: relative;
+    z-index: 13;
+	overflow: hidden;
+}
+#yt_spotlight5 {
+	position: relative;
+	z-index: 10;
+}
+#yt_spotlight6 {
+	.container {
+		background: #171d23;
+	}
+}
+#yt_spotlight7 {
+	.container {
+		border-left: 1px solid #d7d7d7;
+		border-right: 1px solid #d7d7d7;
+		border-top: 1px solid #d7d7d7;
+		margin-top: -1px;
+		.module.banner-bottom {margin-top: 25px;
+			.banneritem {overflow: hidden;}
+		}
+	}
+	
+}
+#yt_spotlight8 {
+	position: relative;
+	z-index: 6;
+	color: #999;
+	.container {
+		background: url(../images/bg_footer.png) repeat right top @background2;
+		border-top: 3px solid @linkColor;
+	}
+	h3.modtitle{
+		border: none;
+		padding: 25px 0px 18px;
+		display: block;
+		position: relative;
+		z-index: 1;
+		margin-bottom: 16px;
+		color: @white;
+		font-size: 13px;
+		border-bottom: 1px solid #464646;
+		&:before {background: transparent;}
+		
+	}
+}
+//7.Block Footer
+#yt_footer{text-align: center; overflow: hidden;
+	.container {background: #000;padding-top: 20px; padding-bottom: 20px;}
+	#yt_copyright {color: #999;
+		a {color: @linkColor;
+               &:hover{
+                    color: @white; //Extend Mixins linkGray utilities.less
+               }
+          }
+          .yt-logo{margin: 5px 15px 0 0;float: left;}
+		  .copyright,.designby{display: inline; color: #fff; font-size: 11px;}
+          .copyright_middle{display: inline-block;}
+     }
+	 #footer {
+		 margin: 0;
+		 padding: 0;
+		 div.module{margin: 0;}
+		 .icon_pay {
+			 background: url(../images/icon/icon_pay.png);
+			 width: 125px;
+			 height: 17px;
+			 display: block;
+			 float: right;
+			 cursor: pointer;
+		 }
+	 }
+}
+
+//8.Non-responsive Bootstrap
+@media  (max-width: 1024px) {.no-res{width: 1190px; }}
+//9. outer
+#outer {
+	
+	z-index: 12;
+	#cookieMessageDetailsLink {display: inline-block;}
+}

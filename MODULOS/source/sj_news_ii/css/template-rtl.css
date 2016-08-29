@@ -1,0 +1,1080 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: ;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.rtl #yt_tool_bottom .module .btn-special {
+  padding: 0 5px;
+}
+.rtl #breadcrumb .breadcrumb a,
+.rtl #breadcrumb .breadcrumb span {
+  display: inline-block;
+  direction: ltr;
+  white-space: nowrap;
+}
+.rtl span.itemEditLink {
+  float: left;
+  text: left;
+}
+.rtl [class^="icon-"],
+.rtl [class*=" icon-"] {
+  margin: 0 0 0 5px;
+}
+.rtl .icon-caret-right:before {
+  content: "\f104";
+}
+.rtl .form-horizontal .control-label {
+  text-align: right;
+}
+.rtl #system-message .error > ul {
+  margin-right: 0;
+  background-position: 99% center;
+}
+.rtl .label {
+  margin-right: 0px;
+  margin-left: 15px;
+}
+.rtl .pagination ul li {
+  float: right;
+}
+.rtl .pagination ul li .fa-long-arrow-right:before {
+  content: "\f177";
+}
+.rtl .pagination ul li .fa-long-arrow-left:before {
+  content: "\f178";
+}
+.rtl ul.pagination li .fa-long-arrow-right:before {
+  content: "\f177";
+}
+.rtl ul.pagination li .fa-long-arrow-left:before {
+  content: "\f178";
+}
+.rtl #content #content_main {
+  padding-right: 15px;
+  padding-left: 30px;
+}
+.rtl #content #content_main.lrm-m {
+  padding-right: 30px;
+  padding-left: 15px;
+}
+.rtl #content #content_main.lmr-m {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.rtl #content #content_left:before {
+  left: 0;
+  right: auto;
+}
+.rtl #content #content_left.lrm-l {
+  padding-left: 30px;
+  padding-right: 15px;
+}
+.rtl #content #content_left.lrm-l:before {
+  right: 0;
+  left: auto;
+}
+.rtl #content #content_left.lmr-l {
+  padding-right: 15px;
+  padding-left: 30px;
+}
+.rtl #content #content_left.lmr-l:before {
+  right: 0;
+  left: auto;
+}
+.rtl #content #content_right {
+  padding-right: 30px;
+  padding-left: 15px;
+}
+.rtl #content #content_right.lrm-r {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.rtl #content #content_right.lrm-r:before {
+  right: 0;
+  left: auto;
+}
+.rtl #content #content_right:before {
+  left: 0;
+  right: auto;
+}
+.rtl #yt_menuwrap #search {
+  left: 0;
+  right: auto;
+}
+.rtl .dropdown.open .dropdown-menu {
+  left: -1px;
+  right: auto;
+}
+.rtl .dropdown.open input.inputbox {
+  left: 0;
+  right: auto;
+}
+.rtl .dropdown.open .button {
+  left: 0;
+  right: auto;
+}
+.rtl .blog .items-leading .item.col-sm-12 .item-image,
+.rtl .blog .items-row .item.col-sm-12 .item-image {
+  float: right;
+  margin: 0 0 0 30px;
+}
+.rtl .blog .items-leading .item .article-text .item-headinfo  dl.article-info,
+.rtl .blog .items-row .item .article-text .item-headinfo  dl.article-info {
+  white-space: nowrap;
+}
+.rtl .blog .items-leading .item .item-image,
+.rtl .blog .items-row .item .item-image {
+  margin: 0 0 10px 0px;
+}
+.rtl .blog .items-leading .item .article-text .hits,
+.rtl .blog .items-row .item .article-text .hits {
+  background-position: right center;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 0 0 0px;
+}
+.rtl .blog .items-leading .item .article-text .article-aside .article-info,
+.rtl .blog .items-row .item .article-text .article-aside .article-info {
+  white-space: nowrap;
+}
+.rtl .blog .items-leading .item .article-text .article-aside .article-info .create,
+.rtl .blog .items-row .item .article-text .article-aside .article-info .create {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-position: right center;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.rtl .blog .items-leading .item .article-text .article-aside .article-info .createdby,
+.rtl .blog .items-row .item .article-text .article-aside .article-info .createdby {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-position: right center;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.rtl .blog .items-leading .item .article-text .article-aside .article-info .hits,
+.rtl .blog .items-row .item .article-text .article-aside .article-info .hits {
+  padding-left: 0px;
+  background-position: right center;
+}
+.rtl .blog .items-leading .item .article-text .item-tags .tags a,
+.rtl .blog .items-row .item .article-text .item-tags .tags a {
+  float: right;
+  margin: 0 0px 1px 1px;
+}
+.rtl .blog .items-leading .item.col-sm-12 .item-image {
+  float: none;
+  margin: 0;
+}
+.rtl .blog.tag-category ul.blank.items-row .item {
+  padding-right: 0;
+  margin-bottom: 15px;
+}
+.rtl .blog.tag-category ul.blank.items-row .item .item-image {
+  margin-left: 30px;
+  margin-right: 0;
+  float: right;
+}
+.rtl .blog-featured .items-leading .item .article-text .item-headinfo  dl.article-info,
+.rtl .blog-featured .items-row  .item .article-text .item-headinfo  dl.article-info {
+  white-space: nowrap;
+}
+.rtl .blog-featured .items-leading .item .item-image,
+.rtl .blog-featured .items-row  .item .item-image {
+  margin: 0 0 10px 0px;
+}
+.rtl .blog-featured .items-leading .item .article-text .hits,
+.rtl .blog-featured .items-row  .item .article-text .hits {
+  background-position: right center;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 0 0 0px;
+}
+.rtl .blog-featured .items-leading .item .article-text .article-aside .article-info,
+.rtl .blog-featured .items-row  .item .article-text .article-aside .article-info {
+  white-space: nowrap;
+}
+.rtl .blog-featured .items-leading .item .article-text .article-aside .article-info .create,
+.rtl .blog-featured .items-row  .item .article-text .article-aside .article-info .create {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-position: right center;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.rtl .blog-featured .items-leading .item .article-text .article-aside .article-info .createdby,
+.rtl .blog-featured .items-row  .item .article-text .article-aside .article-info .createdby {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-position: right center;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.rtl .blog-featured .items-leading .item .article-text .article-aside .article-info .hits,
+.rtl .blog-featured .items-row  .item .article-text .article-aside .article-info .hits {
+  padding-left: 0px;
+  background-position: right center;
+}
+.rtl .blog-featured .items-leading .item .article-text .item-tags .tags a,
+.rtl .blog-featured .items-row  .item .article-text .item-tags .tags a {
+  float: right;
+  margin: 0 0px 1px 1px;
+}
+.rtl .blog-featured .items-leading .item .item-image .feature-info,
+.rtl .blog-featured .items-row  .item .item-image .feature-info {
+  text-align: right;
+}
+.rtl .blog-featured .items-leading .item .item-image .feature-info .create,
+.rtl .blog-featured .items-row  .item .item-image .feature-info .create {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-position: right center;
+}
+.rtl .blog-featured .items-leading .item .item-image .feature-info .createdby,
+.rtl .blog-featured .items-row  .item .item-image .feature-info .createdby {
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-position: right center;
+}
+.rtl .blog-featured .items-leading .item .article-text a.more,
+.rtl .blog-featured .items-row  .item .article-text a.more {
+  float: right;
+  padding: 10px 0px 10px 20px;
+}
+.rtl .blog-featured .items-leading .item .article-text a.more:after,
+.rtl .blog-featured .items-row  .item .article-text a.more:after {
+  left: auto;
+  right: 0px;
+}
+.rtl .blog-featured .items-leading .item .article-text .hits,
+.rtl .blog-featured .items-row  .item .article-text .hits {
+  float: none;
+}
+.rtl .blog-featured .items-leading .item:hover .article-text a.more,
+.rtl .blog-featured .items-row  .item:hover .article-text a.more {
+  padding: 10px 20px;
+}
+.rtl .item-page .article-aside {
+  overflow: hidden;
+}
+.rtl .item-page .article-aside ul.actions {
+  float: left;
+}
+.rtl .item-page .article-aside dl.article-info {
+  float: right;
+}
+.rtl .item-page .article-aside dl.article-info dd {
+  margin-right: 0px;
+  margin-left: 0px;
+  font-size: 100%;
+  white-space: nowrap;
+}
+.rtl .item-page .article-aside dl.article-info dd .create {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-position: right center;
+}
+.rtl .item-page .article-aside dl.article-info dd .hits {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0 0 0 0px;
+  background-position: right center;
+}
+.rtl .item-page .tags a {
+  float: right;
+  margin: 0px 0px 1px 1px;
+}
+.rtl .item-page .img-fulltext.pull-left {
+  margin: 0 0 1em 1em;
+}
+.rtl .item-page .img-fulltext.pull-right {
+  margin: 0 1em 1em 0;
+}
+.rtl .item-page .image {
+  float: right;
+  margin: 5px 0px 20px 30px;
+}
+.rtl .item-page .dt-list {
+  float: right;
+}
+.rtl .item-page .dt-list ul li {
+  padding: 10px 50px 10px 10px;
+}
+.rtl .item-page .dt-list ul li strong {
+  left: auto;
+  right: 10px;
+}
+.rtl .item-page .notice {
+  background-position: 98% center;
+  padding: 30px 60px 30px 30px;
+}
+.rtl .item-page .article-index {
+  margin: 0px 20px 0px 0px;
+}
+.rtl .item-page ul.related-items li .img-fulltext {
+  float: right;
+  margin: 0 0 0 20px;
+}
+.rtl .item-page ul.related-items li .related-item-date {
+  float: right;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+.rtl .item-page ul.related-items li .related-item-hits {
+  float: right;
+}
+.rtl table.category thead tr th {
+  text-align: right;
+}
+.rtl div.categories-list ul {
+  padding: 0 15px 0 0;
+}
+.rtl div.categories-list ul ul > li:after,
+.rtl div.categories-list ul ul > li:before {
+  left: auto;
+  right: -1px;
+}
+.rtl dl.tabs dt {
+  float: right;
+}
+.rtl .search #searchForm .phrases-box input,
+.rtl .search #searchForm .only input {
+  float: right;
+  margin: 4px -20px 0 5px;
+}
+.rtl #advanced-search {
+  text-align: right;
+}
+.rtl.contentpane #mailto-window .mailto-close {
+  left: 40px;
+  right: auto;
+}
+.rtl.contentpane .row-fluid [class*="span"]:first-child {
+  margin-right: 0;
+}
+.rtl.contentpane .row-fluid [class*="span"] {
+  margin: 0;
+  margin-right: 2.12766%;
+  float: right;
+}
+.rtl .pager li > a,
+.rtl .pager li > span {
+  white-space: nowrap;
+}
+.rtl div.contact .contact-image {
+  float: left;
+}
+.rtl #g-about .customersay .cus-title {
+  left: inherit;
+  padding: 10px 0;
+}
+.rtl #g-about .customersay .yt-extra-carousel .carousel-control.left {
+  left: 10px !important;
+  right: inherit !important;
+}
+.rtl #g-about .customersay .yt-extra-carousel .carousel-control.right {
+  left: 45px !important;
+  right: inherit !important;
+}
+.rtl #g-about .customersay blockquote {
+  border-right: 0;
+}
+.rtl #g-about .caption {
+  margin: 0 0 1em 1em;
+}
+.rtl #g-about .title b {
+  padding: 0 0 0 15px;
+}
+.rtl.view-login .wrap-login .form-horizontal .control-group {
+  float: right;
+}
+.rtl.view-login .wrap-login .other-link ul.yt-list li {
+  float: right;
+  margin: 0 0 0 25px;
+}
+.rtl .registration .form-horizontal .control-label {
+  text-align: right;
+  float: right;
+}
+.rtl div.archive .filter-search #limit {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+.rtl .tag-category ul.items-row .item .item-image {
+  margin: 0px 0px 0px 20px;
+}
+.rtl .tag-category ul.items-row .item a.readmore {
+  float: right;
+}
+.rtl .tag-category ul.items-row .item a.readmore:after {
+  left: auto;
+  right: 0px;
+}
+.rtl .tag-category ul.items-row .item .article-text .item-headinfo .article-info dd .create {
+  background-position: right center;
+  padding-left: 0px;
+  padding-right: 25px;
+}
+.rtl #k2Container .componentheading .page-title {
+  direction: ltr;
+  text-align: right;
+}
+.rtl #k2Container div.itemTwitterButton,
+.rtl #k2Container div.itemFacebookButton {
+  float: right;
+}
+.rtl #k2Container.itemView .itemBody .itemAuthorBlock img.itemAuthorAvatar {
+  float: right;
+  margin: 0 0 0 20px;
+}
+.rtl #k2Container div.catItemRatingBlock span {
+  float: right;
+}
+.rtl #k2Container div.catItemRatingBlock .itemRatingForm {
+  float: right;
+}
+.rtl #k2Container div.catItemRatingBlock .itemRatingList {
+  float: right;
+}
+.rtl #k2Container.itemView .itemLatest ul li:before {
+  content: "\f104";
+  right: 0;
+  left: auto;
+}
+.rtl #k2Container.itemView .itemBody .itemImageBlock span.itemImage img {
+  float: right;
+}
+.rtl #k2Container .itemList .col-sm-12 .catItemView .catItemImageBlock,
+.rtl #k2Container.tagView .itemList .catItemView .catItemImageBlock,
+.rtl #k2Container.userView .itemList .catItemView .catItemImageBlock {
+  float: right;
+  margin: 0 0 0 30px;
+}
+.rtl #k2Container div.userBlock img {
+  float: right;
+  margin: 0 0 0 20px;
+}
+.rtl #k2Container div.itemContentFooter {
+  text-align: left;
+}
+.rtl #k2Container.itemView .itemComments .itemCommentsForm .form-validate .fa {
+  border-width: 1px 1px 1px 0;
+  float: right;
+}
+.rtl #k2Container div.itemListCategory .catItemImage {
+  float: right;
+  margin: 0 0 0 30px;
+}
+.rtl #k2Container .itemListCategoriesBlock .itemListCategory h2 {
+  direction: ltr;
+  display: inline-block;
+}
+.rtl #k2Container.itemView .itemComments .itemCommentsList li img {
+  margin: 5px 0 0 15px;
+  float: right;
+}
+.rtl #k2Container.itemView .itemComments .itemCommentsList li span.commentLink {
+  float: left;
+  margin: 0 8px 0 0;
+}
+.rtl #k2Container div.itemToolbar ul {
+  text-align: left;
+}
+.rtl #k2Container.itemView .itemBody div.itemRelated {
+  padding-right: 0;
+  padding-left: 60px;
+}
+.rtl #k2Container div.itemSocialCustom .shareText {
+  float: right;
+}
+.rtl #k2Container div.itemSocialCustom div.plgSocial {
+  float: right;
+}
+.rtl #k2Container div.itemSocialCustom div.itemToolbar.custom {
+  float: left;
+  border-left: none;
+  border-right: 1px solid #e1e1e1;
+}
+.rtl #k2Container div.itemCommentsForm form span#formLog {
+  margin: 10px 20px 0 0;
+  padding: 0 20px 0 0;
+}
+.rtl #k2Container span.itemHits {
+  float: right;
+}
+.rtl #mod-finder-searchform input.inputbox,
+.rtl .k2SearchBlock input.inputbox {
+  background-position: left center;
+}
+.rtl #mod-finder-searchform input.inputbox:focus,
+.rtl .k2SearchBlock input.inputbox:focus {
+  background-position: left center;
+  left: 0;
+  right: auto;
+}
+.rtl .k2Pagination i.fa-long-arrow-left:before {
+  content: "\f178";
+}
+.rtl .k2Pagination i.fa-long-arrow-right:before {
+  content: "\f177";
+}
+.rtl div.k2ItemsBlock.mega-home ul li {
+  float: right;
+  text-align: right;
+}
+.rtl div.k2TagCloudBlock a {
+  margin: 0 0 2px 2px;
+  float: right;
+}
+.rtl .ico-hits,
+.rtl .ico-user,
+.rtl .ico-clock {
+  margin: 0 0 0 5px;
+}
+.rtl .itemRatingList a,
+.rtl .itemRatingList .itemCurrentRating {
+  left: auto;
+  right: 0;
+}
+.rtl div.reviews.k2ItemsBlock ul li .item-reviews {
+  float: right;
+}
+.rtl div.reviews.k2ItemsBlock ul li a.moduleItemImage {
+  float: right;
+  margin: 0 0 0 15px;
+}
+.rtl div.reviews.k2ItemsBlock ul li .item-reviews .moduleItemHits {
+  right: 0;
+  left: auto;
+}
+.rtl #yt_header .row > div:before {
+  float: right;
+}
+.rtl #yt_menuwrap #login div.module {
+  float: left;
+}
+.rtl #yt_menuwrap #login div.module .yt-loginform {
+  border-right: none;
+  border-left: 1px solid #34353A;
+  width: 121px;
+}
+.rtl .mod-languages {
+  float: left;
+}
+.rtl .mod-languages a.dropdown-toggle img {
+  margin-right: 5px;
+  margin-left: 0px;
+}
+.rtl .mod-languages ul.dropdown-menu {
+  left: 0;
+  right: auto;
+}
+.rtl .mod-languages ul.dropdown-menu li img {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.rtl .mod-languages ul.dropdown-menu li a img {
+  float: right;
+}
+.rtl #login-form .login-greeting {
+  float: right;
+  margin: 4px 0 0 5px;
+  white-space: nowrap;
+}
+.rtl #login-form .logout-button {
+  float: right;
+}
+.rtl #login .form-vertical {
+  padding: 11px 2px;
+}
+.rtl #mod-finder-searchform .button {
+  right: auto;
+  left: 30px;
+}
+.rtl #mod-finder-searchform input.inputbox {
+  padding: 4px 10px 4px 30px;
+  margin-right: 30px;
+}
+.rtl ul,
+.rtl ol {
+  padding-right: 18px;
+}
+.rtl .round-online {
+  float: right;
+  margin: 0 0 0 15px;
+}
+.rtl .round-online i {
+  margin: 5px auto 0;
+}
+.rtl div.quick-link {
+  margin: 30px 15px 30px 30px;
+}
+.rtl .module.title2 h3.modtitle:before,
+.rtl .module.title1 h3.modtitle:before {
+  margin: 0 0 0 5px;
+}
+.rtl .module.title3 h3.modtitle:before {
+  float: left;
+}
+.rtl .module.style-icon .fa {
+  margin-right: 0px;
+  margin-left: 5px;
+}
+.rtl .module.bg1 ul,
+.rtl .module.bg2 ul,
+.rtl .module.bg3 ul,
+.rtl .module.bg4 ul {
+  padding-left: 0px;
+  padding-right: 12px;
+}
+.rtl .module.style-icon h3.modtitle [class^="icon-"],
+.rtl .module.style-icon h3.modtitle [class*=" icon-"] {
+  left: auto;
+  right: -10px;
+}
+.rtl .module.badge-new h3.modtitle .badge,
+.rtl .module.badge-top h3.modtitle .badge,
+.rtl .module.badge-hot h3.modtitle .badge,
+.rtl .module.badge-best h3.modtitle .badge {
+  right: auto;
+  left: 20px;
+}
+.rtl .module._menu ul.menu > li:before,
+.rtl .module._menu ul.menu > li.deeper > a:before {
+  float: right;
+  margin: 0 0 0 8px;
+}
+.rtl .module._menu ul.menu > li .yt-list.type-disc li:before {
+  margin: 0 0 0 8px;
+}
+.rtl .module.box8 h3.modtitle span.modtitle-inner:before {
+  border-width: 44px 20px 0 0;
+  right: auto;
+  left: -20px;
+}
+.rtl .module.box4 h3.modtitle {
+  border-width: 0 5px 0 0;
+}
+.rtl .module.box4 h3.modtitle:before {
+  left: auto;
+  right: -21px;
+  content: "\f0d9";
+}
+.rtl .module.box5 h3.modtitle {
+  border-width: 1px 3px 1px 1px;
+}
+.rtl .module.box5 h3.modtitle:before {
+  left: auto;
+  right: -21px;
+  content: "\f0d9";
+}
+.rtl .module.box7 h3.modtitle span.modtitle-inner {
+  border-width: 1px 1px 0 0;
+}
+.rtl .module.box7 h3.modtitle span.modtitle-inner:before {
+  -webkit-transform: skew(-30deg,0);
+  -moz-transform: skew(-30deg,0);
+  -ms-transform: skewX(-30deg) skewY(0);
+  -o-transform: skew(-30deg,0);
+  transform: skew(-30deg,0);
+  -webkit-backface-visibility: hidden;
+  left: -13px;
+  right: auto;
+}
+.rtl #social .poscenter {
+  margin-left: 0px !important;
+  margin-right: 70px;
+}
+.rtl #contact ul li i {
+  margin: 0px 0px 0px 7px;
+}
+.rtl .solutions .features .fa {
+  margin: 0 0 0 27px;
+}
+.rtl ul.custom-link {
+  padding: 0;
+}
+.rtl ul.custom-link li a {
+  position: relative;
+}
+.rtl ul.custom-link li a:before {
+  content: "\f104";
+  margin: 0 -7px 0 5px;
+  left: auto;
+  right: 5px;
+  position: absolute;
+}
+.rtl ul.custom-link li a:hover {
+  padding: 0 15px 0 0;
+}
+.rtl .module ul.menu.list {
+  margin: 0;
+}
+.rtl #yt_footer #footer .icon_pay {
+  float: left;
+}
+.rtl .mega-feature img {
+  float: right;
+  margin: 0 0 0 30px;
+}
+.rtl #yt_menuwrap .module {
+  float: left;
+}
+.rtl #yt_menuwrap .module.social,
+.rtl #yt_menuwrap .module.language,
+.rtl #yt_menuwrap .module.login {
+  border: none;
+  border-left: 1px solid rgba(0,0,0,0.2);
+}
+.rtl #yt_menuwrap .module .poscenter {
+  border: none;
+  border-right: 1px solid rgba(0,0,0,0.2);
+}
+.rtl #yt_menuwrap .module .poscenter div.yt-socialbt {
+  margin-right: 0;
+  margin-left: 12px;
+}
+.rtl .module.slider .modcontent div.carousel {
+  direction: ltr;
+}
+.rtl .module.slider .modcontent div.carousel .carousel-control.left {
+  left: 15px;
+}
+.rtl .module.slider .modcontent div.carousel .carousel-indicators {
+  left: 15px;
+  right: auto;
+}
+.rtl .module.slider .modcontent div.carousel .carousel-inner .item .carousel-caption {
+  text-align: right;
+}
+.rtl .module.slider .modcontent div.carousel .carousel-inner .item .carousel-caption h4 {
+  padding-right: 0px;
+  padding-left: 160px;
+}
+.rtl .module.slider .modcontent div.carousel .carousel-inner .item .carousel-caption p {
+  padding-right: 0px;
+  padding-left: 160px;
+}
+.rtl .module.slider .modcontent div.carousel .carousel-inner .item .carousel-caption .item-date {
+  right: auto;
+  left: 70px;
+  padding-left: 0px;
+  padding-right: 23px;
+  background-position: right center;
+}
+.rtl .module.slider .modcontent div.carousel .carousel-inner .item .carousel-caption .item-hits {
+  right: auto;
+  left: 20px;
+  padding-left: 0px;
+  padding-right: 27px;
+  background-position: right center;
+}
+.rtl div.yt-slider-carousel .carousel-indicators {
+  left: 0;
+  right: auto;
+}
+.rtl div.bsn-wrap .item span.basic-date {
+  margin: 0 0px 0 10px;
+  padding-left: 0px;
+  padding-right: 21px;
+  background-position: right center;
+}
+.rtl div.bsn-wrap .item span.basic-hits {
+  padding-left: 0px;
+  padding-right: 27px;
+  background-position: right center;
+}
+.rtl div.bsn-wrap.theme1 .item .bsn-image {
+  float: right;
+}
+.rtl div.bsn-wrap.theme2 .item .item-info .basicnews-desc {
+  text-align: right;
+}
+.rtl div.bsn-wrap.theme2 .item .basicnews-info a.more {
+  float: right;
+}
+.rtl div.bsn-wrap.theme2 .item .basicnews-info .cattitle {
+  float: left;
+  padding-left: 0px;
+  padding-right: 27px;
+  background-position: right center;
+}
+.rtl div.bsn-wrap.theme3 .item .basicnews-info .basic-date {
+  float: right;
+  margin-right: 0px;
+  margin-left: 20px;
+  padding-left: 0px;
+  padding-right: 21px;
+  background-position: right center;
+}
+.rtl div.bsn-wrap.theme3 .item .basicnews-info .cattitle {
+  float: right;
+  padding-left: 0px;
+  padding-right: 27px;
+  background-position: right center;
+}
+.rtl div.moduletabs.top-position div.tabs-container ul.tabs li {
+  float: right !important;
+}
+.rtl div.moduletabs.top-position div.tabs-content-wrap .bsn-wrap .item .basicnews-info .basic-date {
+  float: right;
+  margin: 0 0 0 10px;
+  padding-left: 0px;
+  padding-right: 21px;
+  background-position: right center;
+}
+.rtl div.moduletabs.top-position div.tabs-content-wrap .bsn-wrap .item .basicnews-info .cattitle {
+  float: right;
+  padding-left: 0px;
+  padding-right: 10px;
+  margin: 0 0 0 10px;
+  background-position: right center;
+}
+.rtl div.moduletabs.top-position div.tabs-content-wrap .bsn-wrap .item .bsn-image {
+  margin-right: 0px;
+  margin-left: 18px;
+}
+.rtl div.contact-ajax .ctajax-element .el-info-contact .info-address i,
+.rtl div.contact-ajax .ctajax-element .el-info-contact .info-mobie i,
+.rtl div.contact-ajax .ctajax-element .el-info-contact .info-mail i {
+  float: right;
+  margin: 0 0 0 30px;
+}
+.rtl div.contact-ajax .ctajax-element .el-inner .el-heading span:before {
+  left: 100%;
+  margin: 0 0 0 0.5em;
+  right: auto;
+}
+.rtl div.contact-ajax .ctajax-element .el-inner .el-heading span:after {
+  left: auto;
+  margin: 0 0.5em 0 0;
+}
+.rtl div.sj-accordion .acd-items .acd-item .acd-header {
+  background-position: 94% center;
+  padding: 12px 50px 12px 10px;
+}
+.rtl div.sj-accordion .acd-items .acd-item .acd-content-wrap .acd-content-wrap-inner .acd-content ul.acd-info li {
+  float: right;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+.rtl div.sj-accordion .acd-items .acd-item .acd-content-wrap .acd-content-wrap-inner .acd-content ul.acd-info li span.acd-date {
+  padding-left: 0px;
+  padding-right: 23px;
+  background-position: right center;
+}
+.rtl div.sj-accordion .acd-items .acd-item .acd-content-wrap .acd-content-wrap-inner .acd-content ul.acd-info li span.acd-hits {
+  padding-left: 0px;
+  padding-right: 27px;
+  background-position: right center;
+}
+.rtl div.top div.sj-extraslider .extraslider-inner .item .line .item-wrap.first .item-wrap-inner {
+  border-left: none;
+}
+.rtl div.top div.sj-extraslider .extraslider-inner .item .line .item-wrap .item-wrap-inner {
+  border: none;
+}
+.rtl div.top div.sj-extraslider .extraslider-inner .item .line .item-wrap .item-wrap-inner .item-image {
+  float: right;
+  margin: 0 0 0 15px;
+}
+.rtl div.top div.sj-extraslider .extraslider-inner .item .line .item-wrap .item-wrap-inner .item-image img {
+  float: right;
+}
+.rtl div.most div.sj-extraslider .extraslider-control .button-prev {
+  margin-left: 0;
+}
+.rtl div.sj-meganew .meganew-wrap .meganew-box .meganew-box-inner div.meganew-items.theme2 .item-first {
+  float: right;
+  margin: 0 0 0 30px;
+}
+.rtl .sj-extraslider .heading-title {
+  float: right;
+}
+.rtl .sj-extraslider .extraslider-control {
+  float: left;
+}
+.rtl div.most div.sj-extraslider .extraslider-inner .item .line .item-wrap .item-wrap-inner .item-image {
+  float: right;
+  margin-right: 0px;
+  margin-left: 15px;
+}
+.rtl div.news div.sj-extraslider .extraslider-control .button-prev {
+  margin-left: 0;
+}
+.rtl div.news div.sj-extraslider .extraslider-inner .item .line .item-wrap .item-wrap-inner .item-image {
+  float: right;
+  margin-right: 0px;
+  margin-left: 30px;
+}
+.rtl div.sj-k2-ajax-tabs.top-position .tabs-container ul.tabs {
+  right: 0;
+  left: auto !important;
+}
+.rtl div.sj-k2-ajax-tabs.top-position .tabs-container ul.tabs li {
+  float: right;
+}
+.rtl div.sj-k2-ajax-tabs.top-position .tabs-container ul.tabs li .tab {
+  margin: 0 0 0 20px;
+}
+.rtl .sj-k2-ajax-tabs .item-wrap .item-title,
+.rtl .sj-k2-ajax-tabs .item-wrap .item-title a {
+  text-align: right;
+}
+.rtl div.moduletabs.top-position .tabs-content-wrap div.tabs-content div.tabs-content-inner div.tab-content div.sj-meganew .meganew-wrap .meganew-box .meganew-box-inner div.meganew-items.theme1 .item-first {
+  float: right;
+}
+.rtl .sj-meganew .meganew-wrap .meganew-box .item-image {
+  float: right;
+}
+.rtl div.moduletabs.top-position .tabs-content-wrap div.tabs-content div.tabs-content-inner div.tab-content div.sj-meganew .meganew-wrap .meganew-box .meganew-box-inner div.meganew-items.theme1 .item-other ul.other-link li .item-custom .item-category i,
+.rtl div.moduletabs.top-position .tabs-content-wrap div.tabs-content div.tabs-content-inner div.tab-content div.sj-meganew .meganew-wrap .meganew-box .meganew-box-inner div.meganew-items.theme1 .item-first .item-custom .item-category i {
+  float: right;
+  margin: 0 5px 0 0;
+}
+.rtl div.moduletabs.top-position .tabs-content-wrap div.tabs-content div.tabs-content-inner div.tab-content div.sj-meganew .meganew-wrap .meganew-box .meganew-box-inner div.meganew-items.theme1 .item-other ul.other-link li .item-custom .item-category .item-category-name,
+.rtl div.moduletabs.top-position .tabs-content-wrap div.tabs-content div.tabs-content-inner div.tab-content div.sj-meganew .meganew-wrap .meganew-box .meganew-box-inner div.meganew-items.theme1 .item-first .item-custom .item-category .item-category-name {
+  float: right;
+}
+.rtl div.acymailing_module table.acymailing_form td.acysubbuttons {
+  text-align: right;
+}
+.rtl #myLogin #login-form .userdata input[type="checkbox"] {
+  float: right;
+  margin-left: 10px;
+}
+.rtl .module._menu.side-menu .modcontent ul.menu > li.parent:hover ul {
+  right: -220px;
+  left: inherit;
+}
+.rtl .module._menu.side-menu .modcontent ul.menu > li.parent:hover ul li:hover ul {
+  right: -220px;
+  left: inherit;
+}
+.rtl .module._menu.tree-menu .modcontent ul.menu > li.parent ul {
+  padding-right: 20px;
+  padding-left: 0;
+}
+.rtl .module._menu.tree-menu .modcontent ul.menu > li.parent:hover ul {
+  padding-right: 20px;
+}
+.rtl .module._menu.side-menu .modcontent ul.menu > li.parent > a:after,
+.rtl .module._menu.side-menu .modcontent ul.menu > li.parent span:after {
+  content: "\f104";
+  float: left;
+}
+.rtl .module._menu.side-menu .modcontent ul.menu > li.parent:hover ul li.parent > a:after,
+.rtl .module._menu.side-menu .modcontent ul.menu > li.parent ul li.parent > span:after {
+  content: "\f104";
+  float: left;
+  right: inherit;
+}
+.rtl #moonavigator {
+  float: left;
+}
+.rtl #moonavigator li.level1 {
+  float: right;
+}
+.rtl #moonavigator li.level1.first {
+  padding-right: 30px;
+  padding-left: 0;
+}
+.rtl #moonavigator li.level1 > .item-link {
+  padding: 21px 15px 20px 10px;
+}
+.rtl #moonavigator li.level1:hover ul.level2,
+.rtl #moonavigator li.level1.hover ul.level2 {
+  left: auto;
+  right: 0;
+}
+.rtl #moonavigator ul {
+  left: auto;
+  right: -999em;
+}
+.rtl #moonavigator ul.subnavi li .item-link.havechild .fa {
+  right: auto;
+  left: 10px;
+}
+.rtl #moonavigator ul.subnavi li .item-link.havechild .fa:before {
+  content: "\f104";
+}
+.rtl #moonavigator ul.subnavi li .item-link .menu-title {
+  direction: ltr;
+}
+.rtl #moonavigator ul.subnavi li .fa-angle-right {
+  right: auto;
+  left: 10px;
+}
+.rtl #moonavigator ul.subnavi li:hover ul.level3,
+.rtl #moonavigator ul.subnavi li li.level3:hover ul.level4,
+.rtl #moonavigator ul.subnavi li li.level4:hover ul.level5 {
+  left: auto;
+  right: 100%;
+}
+.rtl #meganavigator li.level1 {
+  float: right;
+}
+.rtl #meganavigator li.level1.first {
+  padding-right: 30px;
+  padding-left: 0;
+}
+.rtl #meganavigator li.level1 .mega-content .mega-col {
+  float: right;
+}
+.rtl #meganavigator li.level1 .mega-content ul.subnavi li .item-link.havechild .fa {
+  right: auto;
+  left: 10px;
+}
+.rtl #meganavigator li.level1 .mega-content ul.subnavi li .item-link.havechild .fa:before {
+  content: "\f104";
+}
+.rtl #meganavigator ul.subnavi li .item-link .menu-title {
+  direction: ltr;
+  display: inline-block;
+}
+.rtl #meganavigator li.level1.mega-home:hover #megahome {
+  left: 0 !important;
+  right: auto;
+  border: 1px solid #d7d7d7;
+  border-top: none;
+}
+.rtl #meganavigator li.level1.mega-home:hover #megahome .last .banneritem img {
+  float: left;
+}
+.rtl .nav-collapse ul.resmenu li.haveChild .fa-angle-down {
+  left: 5px;
+  right: auto;
+}
+.rtl .yt-resmenu .nav-collapse ul.resmenu li.haveChild .menuress-toggle {
+  left: 0;
+  right: auto;
+}
+.rtl .yt-resmenu .nav-collapse ul.resmenu li a {
+  white-space: nowrap;
+}

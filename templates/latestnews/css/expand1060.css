@@ -1,0 +1,190 @@
+/******************************/
+/****** Joomla Templates ******/
+/******************************/
+@media screen and (min-width:1200px){
+#header-outer { height: 70px; }
+#header-spacer { height: 90px; }
+#header-inner, #banner-inner, #advert-inner, #upper-inner, #body-inner, #bottom-inner, #footer-inner, #copyright-inner { width: 1060px; }
+.logo { height: 70px; }
+}
+@media screen and (min-width:1200px){
+#body-right-only { float: left; width: 735px; }
+#body-left-only { float: right; width: 735px; }
+#body-left-right { float: left; width: 610px; margin-left: 25px; }
+#body-right-center { float: left; width: 785px; }
+#body-left-center { float: right; width: 785px; }
+#body-left-right-center { float: left; width: 610px; margin-left: 25px; }
+}
+@media screen and (min-width:1200px){
+.centerright #layer-right-center { float: left; width: 560px; }
+.centerleft #layer-right-center { float: right; width: 560px; }
+.centerright #layer-left-center { float: left; width: 560px; }
+.centerleft #layer-left-center { float: right; width: 560px; }
+.centerright #layer-left-right-center { float: left; width: 385px; }
+.centerleft #layer-left-right-center { float: right; width: 385px; }
+.centerright #layer-center-only { float: left; width: 835px; }
+.centerleft #layer-center-only { float: right; width: 835px; }
+}
+/******************************/
+/******* Joomla Default *******/
+/******************************/
+@media screen and (min-width:1200px){
+body { font-size: 15px; line-height: 1.7; }
+h1 { font-size: 25px; }
+h2 { font-size: 23px; }
+h3 { font-size: 21px; }
+h4 { font-size: 19px; }
+h5 { font-size: 17px; }
+form input, form select, textarea { font-size: 16px; }
+.page-header h1, .item-page .page-header h2, .contact h1 { font-size: 21px; }
+.blog-featured h2.item-title, .blog .page-header h2, .contact h2 { font-size: 19px; }
+#jform_name, #jform_username, #jform_password1, #jform_password2, #jform_email1, #jform_email2, #jform_email { width: 300px; }
+#jform_contact_name, #jform_contact_email, #jform_contact_emailmsg { width: 300px; }
+#jform_contact_message { height: 270px; }
+}
+/******************************/
+/******* Joomla Toolbar *******/
+/******************************/
+@media screen and (min-width:1200px){
+#navigation { margin: 10px 0px 0px 0px; }
+#toolbar .menu a { font-size: 16px; }
+#toolbar .menu li { margin: 0px 0px 0px 26px; }
+#toolbar .menu li li a { font-size: 15px; }
+#toolbar .menu ul { width: 195px; }
+#toolbar .menu ul li { width: 175px; }
+#toolbar .menu li li li a { font-size: 15px; }
+}
+/******************************/
+/******* Joomla Modules *******/
+/******************************/
+@media screen and (min-width:1200px){
+#body-right-only .cols-4 .column-1, #body-left-only .cols-4 .column-1 { width: 168px; float: left; }
+#body-right-only .cols-4 .column-2, #body-left-only .cols-4 .column-2 { width: 168px; float: left; margin-left: 21px; }
+#body-right-only .cols-4 .column-3, #body-left-only .cols-4 .column-3 { width: 168px; float: left; margin-left: 21px; }
+#body-right-only .cols-4 .column-4, #body-left-only .cols-4 .column-4 { width: 168px; float: right; }
+#body-right-only .cols-3 .column-1, #body-left-only .cols-3 .column-1 { width: 231px; float: left; }
+#body-right-only .cols-3 .column-2, #body-left-only .cols-3 .column-2 { width: 231px; float: left; margin-left: 21px; }
+#body-right-only .cols-3 .column-3, #body-left-only .cols-3 .column-3 { width: 231px; float: right; }
+#body-right-only .cols-2 .column-1, #body-left-only .cols-2 .column-1 { width: 357px; float: left; }
+#body-right-only .cols-2 .column-2, #body-left-only .cols-2 .column-2 { width: 357px; float: right; }
+#body-right-only .cols-1 .column-1, #body-left-only .cols-1 .column-1 { width: 735px; float: left; }
+#body-left-right .cols-3 .column-1 { width: 190px; float: left; }
+#body-left-right .cols-3 .column-2 { width: 190px; float: left; margin-left: 20px; }
+#body-left-right .cols-3 .column-3 { width: 190px; float: right; }
+#body-left-right .cols-2 .column-1 { width: 295px; float: left; }
+#body-left-right .cols-2 .column-2 { width: 295px; float: right; }
+#body-left-right .cols-1 .column-1 { width: 610px; float: left; }
+#body-wide .cols-5 .column-1 { width: 196px; float: left; }
+#body-wide .cols-5 .column-2 { width: 196px; float: left; margin-left: 20px; }
+#body-wide .cols-5 .column-3 { width: 196px; float: left; margin-left: 20px; }
+#body-wide .cols-5 .column-4 { width: 196px; float: left; margin-left: 20px; }
+#body-wide .cols-5 .column-5 { width: 196px; float: right; }
+#body-wide .cols-4 .column-1 { width: 250px; float: left; }
+#body-wide .cols-4 .column-2 { width: 250px; float: left; margin-left: 20px; }
+#body-wide .cols-4 .column-3 { width: 250px; float: left; margin-left: 20px; }
+#body-wide .cols-4 .column-4 { width: 250px; float: right; }
+#body-wide .cols-3 .column-1 { width: 340px; float: left; }
+#body-wide .cols-3 .column-2 { width: 340px; float: left; margin-left: 20px; }
+#body-wide .cols-3 .column-3 { width: 340px; float: right; }
+#body-wide .cols-2 .column-1 { width: 520px; float: left; }
+#body-wide .cols-2 .column-2 { width: 520px; float: right; }
+#body-wide .cols-1 .column-1 { width: 1060px; float: left; }
+#body-right-center .cols-2 .column-1, #body-left-center .cols-2 .column-1 { width: 270px; float: left; }
+#body-right-center .cols-2 .column-2, #body-left-center .cols-2 .column-2 { width: 270px; float: right; }
+#body-right-center .cols-1 .column-1, #body-left-center .cols-1 .column-1 { width: 560px; float: left; }
+#body-center-only .cols-4 .column-1 { width: 193px; float: left; }
+#body-center-only .cols-4 .column-2 { width: 193px; float: left; margin-left: 21px; }
+#body-center-only .cols-4 .column-3 { width: 193px; float: left; margin-left: 21px; }
+#body-center-only .cols-4 .column-4 { width: 193px; float: right; }
+#body-center-only .cols-3 .column-1 { width: 265px; float: left; }
+#body-center-only .cols-3 .column-2 { width: 265px; float: left; margin-left: 20px; }
+#body-center-only .cols-3 .column-3 { width: 265px; float: right; }
+#body-center-only .cols-2 .column-1 { width: 407px; float: left; }
+#body-center-only .cols-2 .column-2 { width: 407px; float: right; }
+#body-center-only .cols-1 .column-1 { width: 835px; float: left; }
+#body-left-right-center .cols-1 .column-1 { width: 385px; float: left; }
+}
+/******************************/
+/******* Joomla Modules *******/
+/******************************/
+@media screen and (min-width:1200px){
+.advert99 .first, .footer99 .first, .upper99 .first, .bottom99 .first { width: 1060px; float: left; }
+.advert49 .first, .footer49 .first, .upper49 .first, .bottom49 .first { float: left; width: 520px; }
+.advert49 .second, .footer49 .second, .upper49 .second, .bottom49 .second { float: right; width: 520px; }
+.advert33 .first, .footer33 .first, .upper33 .first, .bottom33 .first { float: left; width: 340px; }
+.advert33 .second, .footer33 .second, .upper33 .second, .bottom33 .second { float: left; width: 340px; margin-left: 20px; }
+.advert33 .third, .footer33 .third, .upper33 .third, .bottom33 .third { float: right; width: 340px; }
+.advert24 .first, .footer24 .first, .upper24 .first, .bottom24 .first { float: left; width: 250px; }
+.advert24 .second, .footer24 .second, .upper24 .second, .bottom24 .second { float: left; width: 250px; margin-left: 20px; }
+.advert24 .third, .footer24 .third, .upper24 .third, .bottom24 .third { float: left; width: 250px; margin-left: 20px; }
+.advert24 .forth, .footer24 .forth, .upper24 .forth, .bottom24 .forth { float: right; width: 250px; }
+.advert19 .first, .footer19 .first, .upper19 .first, .bottom19 .first { float: left; width: 196px; }
+.advert19 .second, .footer19 .second, .upper19 .second, .bottom19 .second { float: left; width: 196px; margin-left: 20px; }
+.advert19 .third, .footer19 .third, .upper19 .third, .bottom19 .third { float: left; width: 196px; margin-left: 20px; }
+.advert19 .forth, .footer19 .forth, .upper19 .forth, .bottom19 .forth { float: left; width: 196px; margin-left: 20px; }
+.advert19 .fifth, .footer19 .fifth, .upper19 .fifth, .bottom19 .fifth { float: right; width: 196px; }
+}
+/******************************/
+/******* Joomla Modules *******/
+/******************************/
+@media screen and (min-width:1200px){
+#user-right-only .user99 .first, #user-left-only .user99 .first { float: left; width: 735px; }
+#user-right-only .user49 .first, #user-left-only .user49 .first { float: left; width: 357px; }
+#user-right-only .user49 .second, #user-left-only .user49 .second { float: right; width: 357px; }
+#user-right-only .user33 .first, #user-left-only .user33 .first { float: left; width: 231px; }
+#user-right-only .user33 .second, #user-left-only .user33 .second { float: left; width: 231px; margin-left: 21px; }
+#user-right-only .user33 .third, #user-left-only .user33 .third { float: right; width: 231px; }
+#user-left-right .user99 .first { float: left; width: 610px; }
+#user-left-right .user49 .first { float: left; width: 295px; }
+#user-left-right .user49 .second { float: right; width: 295px; }
+#user-left-right .user33 .first { float: left; width: 190px; }
+#user-left-right .user33 .second { float: left; width: 190px; margin-left: 20px; }
+#user-left-right .user33 .third { float: right; width: 190px; }
+#user-wide .user99 .first { float: left; width: 1060px; }
+#user-wide .user49 .first { float: left; width: 520px; }
+#user-wide .user49 .second { float: right; width: 520px; }
+#user-wide .user33 .first { float: left; width: 340px; }
+#user-wide .user33 .second { float: left; width: 340px; margin-left: 20px; }
+#user-wide .user33 .third { float: right; width: 340px; }
+#user-center-only .user99 .first { float: left; width: 1060px; }
+#user-center-only .user49 .first { float: left; width: 520px; }
+#user-center-only .user49 .second { float: right; width: 520px; }
+#user-center-only .user33 .first { float: left; width: 340px; }
+#user-center-only .user33 .second { float: left; width: 340px; margin-left: 20px; }
+#user-center-only .user33 .third { float: right; width: 340px; }
+#user-right-center .user99 .first, #user-left-center .user99 .first { float: left; width: 785px; }
+#user-right-center .user49 .first, #user-left-center .user49 .first { float: left; width: 382px; }
+#user-right-center .user49 .second, #user-left-center .user49 .second { float: right; width: 382px; }
+#user-right-center .user33 .first, #user-left-center .user33 .first { float: left; width: 249px; }
+#user-right-center .user33 .second, #user-left-center .user33 .second { float: left; width: 249px; margin-left: 19px; }
+#user-right-center .user33 .third, #user-left-center .user33 .third { float: right; width: 249px; }
+#user-left-right-center .user99 .first { float: left; width: 610px; }
+#user-left-right-center .user49 .first { float: left; width: 295px; }
+#user-left-right-center .user49 .second { float: right; width: 295px; }
+#user-left-right-center .user33 .first { float: left; width: 190px; }
+#user-left-right-center .user33 .second { float: left; width: 190px; margin-left: 20px; }
+#user-left-right-center .user33 .third { float: right; width: 190px; }
+}
+/******************************/
+/******* Joomla Modules *******/
+/******************************/
+@media screen and (min-width:1200px){
+#inside-right-only .inside99 .first, #inside-left-only .inside99 .first { float: left; width: 735px; }
+#inside-right-only .inside49 .first, #inside-left-only .inside49 .first { float: left; width: 357px; }
+#inside-right-only .inside49 .second, #inside-left-only .inside49 .second { float: right; width: 357px; }
+#inside-left-right .inside99 .first { float: left; width: 610px; }
+#inside-left-right .inside49 .first { float: left; width: 295px; }
+#inside-left-right .inside49 .second { float: right; width: 295px; }
+#inside-wide .inside99 .first { float: left; width: 1060px; }
+#inside-wide .inside49 .first { float: left; width: 520px; }
+#inside-wide .inside49 .second { float: right; width: 520px; }
+#inside-right-center .inside99 .first, #inside-left-center .inside99 .first { float: left; width: 560px; }
+#inside-right-center .inside49 .first, #inside-left-center .inside49 .first { float: left; width: 270px; }
+#inside-right-center .inside49 .second, #inside-left-center .inside49 .second { float: right; width: 270px; }
+#inside-left-right-center .inside99 .first { float: left; width: 385px; }
+#inside-left-right-center .inside49 .first { float: left; width: 182px; }
+#inside-left-right-center .inside49 .second { float: right; width: 182px; }
+#inside-center-only .inside99 .first { float: left; width: 835px; }
+#inside-center-only .inside49 .first { float: left; width: 407px; }
+#inside-center-only .inside49 .second { float: right; width: 407px; }
+}

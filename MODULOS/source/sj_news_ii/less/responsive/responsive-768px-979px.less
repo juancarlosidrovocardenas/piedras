@@ -1,0 +1,201 @@
+// PORTRAIT TABLET TO DEFAULT DESKTOP
+// ----------------------------------
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	   //Layout-Templates
+	  div.container{width: 750px;}
+	  #content #content_left {padding-left: 15px;
+		  &:before {top: 0;}
+	  }
+	  #content #content_main {padding-right: 15px;}
+	  // Core Joomla
+	 
+	  
+	  //System Tool
+	 
+	 .article-text .btn-group .btn {padding: 0px;}
+	  //Layout-Templates
+	  #yt_logo img{height: auto !important;}
+	
+	  //Responsive Mainmenu
+	  #yt_mainmenu {
+		  ul.navi{display: none;}
+		  .yt-resmenu {display: block;}
+          
+	  }
+      #language {padding: 0;
+		  .mod-languages ul.dropdown-menu{li a {}}
+	  }
+
+		.dropdown.open input.inputbox {width: 625px;}
+	  
+	  .ourmember #yt-extra-carousel img{height: 150px;}
+	  .registration .form-horizontal .control-label{white-space: nowrap; width: 28%;}
+	 #login{padding: 0; position: absolute;right: 0;z-index: 100;}
+	 
+	  .mod-languages a.dropdown-toggle {}
+	 
+	  //Generic Article Style
+	  .blog-featured .items-row .item .item-image{display: inline-block;}
+	  .blog {
+		   .items-leading .item{
+               &.col-sm-12 .item-image{margin: 0 !important; display: block;}
+				&.span4,
+				&.span6,
+				&.span3 {
+					 .item-image{display: block !important;min-width: inherit !important;min-height: inherit !important;
+						  .img_caption{width: auto !important;}
+					 }
+				}
+				.item-image{float: none !important;display: inline-block;margin: 0 0 20px !important;}
+		   }
+		   .items-row .item{
+				&.col-sm-3,
+				&.col-sm-4,
+				&.col-sm-6 {
+					 .item-image{display: block!important;min-width: inherit !important;min-height: inherit !important;float: none !important;
+						  .img_caption{width: auto !important;}
+					 }
+				}
+				.item-image{}
+		   }
+	  }
+	  .item-page {
+		   .btn.btn-flat {padding: 5px 15px;font-size: 12px;}
+		   .related-items .img-fulltext {display: inline-block;}
+		   .g-pageteam .b-ourteam .col-sm-6.first {clear: both;}
+		   .dt-list {width: 47%;}
+	  }
+	  
+	  .bs-docs-example .clearfix{display: none;}
+	  
+	  //Tag Category
+	  .tag-category ul.items-row .item .item-image {margin: 0px 30px 0px 0px;display: inline-block;}
+	  
+	  //Modules
+		// Module custom html
+		   //Basic News
+		   div.bsn-wrap {
+				&.theme2 .item {margin-bottom: 30px;
+					 .bsn-image .alignleft {width: 100% !important;}
+				}
+				&.theme3 .item {
+					 .bsn-image .alignleft {width: 100% !important;}
+				}
+		   }
+		   
+		   
+		   //Login
+		   .yt-loginform .dropdown-menu {min-width: 188px;}
+		   .mod-languages {
+			   
+				.dropdown-menu {
+					 li a {padding: 7px;}
+				}
+		   }
+		   .form-vertical  {
+				.login-greeting {font-size: 12px;}
+				.logout-button .btn {padding: 2px 0 2px 6px;}
+		   }
+		   .profile {
+			   position: relative;
+			   padding: 0;
+			   ul.btn-toolbar {
+				   position: absolute;
+				   right: 0;
+				   width: 130px;
+				   padding: 0;
+			   }
+		   }
+		   
+		   //Social
+		   #social {padding-right: 0px;
+				.poscenter {margin: -3px 0px 0px 26px!important;
+					 .yt-socialbt {margin-right: 10px;}
+				}
+		   }
+		   
+		   //Search
+		   #search {padding-right: 0px;
+				#mod-finder-searchform {margin-right: 0px;
+					 #mod-finder-searchword {width: 157px;}
+				}
+		   }
+		   
+		   //Contact
+		   #contact {padding-right: 0px;
+				.poscenter {margin-top: -4px;
+					 a {font-size: 13px;}
+					 span {font-size: 13px;}
+				}
+		   }
+           // sj extraslider
+		   div.moduletabs.top-position .tabs-content-wrap div.tabs-content div.tabs-content-inner div.tab-content div.sj-meganew .meganew-wrap .meganew-box .meganew-box-inner div.meganew-items.theme1 .item-other ul.other-link li .item-custom  {
+			   .item-category, .item-description {display: none;}
+		   }
+		   
+		   // Content Component
+		   .blog .items-leading .item.col-sm-12 .item-image img {width: 100%;}
+           //K2 component
+		   #k2Container .itemList .col-sm-12 .catItemView.groupLeading .catItemImageBlock img {width: 100%;}
+		   #k2Container.itemView .itemComments .itemCommentsForm .form-validate .col-sm-4 {
+			   width: 100%; margin-bottom: 10px;
+			   input.inputbox {width: 80%;}
+		   }
+           #k2Container.itemView .itemBody div.itemRelated,
+		   #k2Container.itemView .itemIntroText{
+               width: 100%;
+               padding: 0;
+           }
+		   //acordion
+		   div.sj-accordion .acd-items .acd-item:hover .acd-image a.hover-link {top: 29%;}
+           //sj responsive listing
+           div.sj-responsive-listing .respl-wrap .respl-items .respl-item .item-inner .item-info {padding: 10px 20px 0;}
+		   //sj k2slickslider
+		   div.sj-k2slickslider {
+			   padding-top: 0;
+			   .slickslider-items .item-content .item-content-inner .item-title a {font-size: 32px;}}
+		   div.k2ItemsBlock ul li div.moduleItemIntrotext a.moduleItemImage {float: none; margin: 0 0 10px;
+			   img {float: none; margin: 0;}
+		   }
+		   div.reviews.k2ItemsBlock ul li .moduleItemDateCreated {display: block;}
+		   div.moduletabs.top-position .tabs-content-wrap div.tabs-content div.tabs-content-inner div.tab-content div.sj-meganew .meganew-wrap .meganew-box .meganew-box-inner div.meganew-items.theme1 .item-other ul.other-link li .item-custom .item-title a {font-size: 13px;}
+	  //RTL Languages
+	  &.rtl {
+		  #content #content_left {padding-left: 30px; padding-right: 15px;}
+		  .profile {
+			  
+			  ul.btn-toolbar {
+				  left: 0;
+				  right: auto;
+			  }
+		  }
+		  div.k2ItemsBlock ul li div.moduleItemIntrotext a.moduleItemImage {float: none; margin: 0 0 10px;
+			  img {float: none; margin: 0;}
+		  }
+		  #login{right: auto; left: 0;} 
+		   //Social
+		   #social {padding: 0px;
+				.poscenter {margin: 3px 0px 0px 0px !important;padding-right: 15px}
+		   }
+		   
+		   //Search
+		   #search {padding: 0px;
+				#mod-finder-searchform {
+					 .button {left: 23px;}
+					 input.inputbox {margin-right: 15px;}
+				}
+		   }
+           #g-pageportfolio [class*="col-sm"] {margin-right: 0;}
+		   //Login
+
+           // Content Component
+		   
+		   
+           //K2 component
+		   
+		   
+	  }
+
+}

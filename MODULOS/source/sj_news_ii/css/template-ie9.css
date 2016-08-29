@@ -1,0 +1,97 @@
+.module h3.modtitle {
+  -ms-filter: none;
+  filter: none;
+}
+body {
+  overflow-x: hidden;
+}
+#mod-finder-searchform input.inputbox {
+  padding: 0px 30px 0px 10px;
+}
+#yt_header #yt_logo {
+  -ms-transform: translate(0,0);
+}
+.slider .carousel .carousel-control {
+  -ms-filter: none;
+  filter: none;
+}
+div.acymailing_module table.acymailing_form tr input {
+  margin-top: 10px;
+}
+.rtl .yt-list.type-disc li:before {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+.rtl .module.slider {
+  direction: ltr;
+}
+.rtl .module.slider .carousel-caption {
+  direction: rtl;
+}
+.rtl #yt_menuposition ul.navirtl > li.level1 {
+  direction: ltr;
+}
+.rtl #yt_menuposition ul.navirtl > li.level1 a.item-link {
+  direction: rtl;
+}
+.rtl #yt_menuposition ul.navirtl > li.level1 li.level2 {
+  direction: rtl;
+}
+.rtl .module.bg-content1 h3.modtitle {
+  background: transparent;
+}
+.rtl .row-fluid .first[class*="span"] {
+  margin: 0;
+}
+.rtl div.archive .filter-search #limit,
+.rtl select#limit.inputbox.input-mini {
+  width: 70px;
+}
+.rtl ul.nav.nav-tabs.nav-stacked {
+  margin: 0 0 0 1px;
+}
+.rtl .item-page .article-header h2 a {
+  display: block;
+}
+.rtl h1,
+.rtl h2,
+.rtl h3,
+.rtl h4,
+.rtl h5,
+.rtl h6,
+.rtl div.sj-responsive-listing .respl-pretext,
+.rtl #menu a,
+.rtl div.sj-k2slickslider .slickslider-items .item-content .item-content-inner .item-title a,
+.rtl .about2 .yt-skills .form-group strong,
+.rtl #meganavigator li.level1 > .item-link,
+.rtl div.sj-extraslider .extraslider-inner .item .line .item-wrap .item-wrap-inner .item-info .item-title h3 a {
+  font-family: Raleway !important;
+}
+.rtl .module h3.modtitle {
+  font-family: Raleway !important;
+}
+.rtl .module.box7 h3.modtitle span.modtitle-inner::before {
+  border-width: 44px 0 0 20px !important;
+}
+.rtl .module.box8 h3.modtitle span.modtitle-inner:before {
+  border-width: 4px 0 0 6px !important;
+}
+.rtl .module.bg3,
+.rtl .module.bg4,
+.rtl table.variations {
+  width: 99.99%;
+}
+.rtl .module.box6 {
+  overflow: hidden;
+}
+.rtl .module.box6 h3 {
+  margin-right: -1px;
+}
+.rtl ul.yt-accordion li.accordion-group {
+  width: 99.99%;
+  float: left;
+  margin-left: 1px;
+}
+.rtl .yt-sticky .module .module-inner1 .module-inner2 .module-inner3 {
+  word-break: break-all;
+}

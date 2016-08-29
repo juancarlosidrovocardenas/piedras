@@ -1,0 +1,384 @@
+/******************************/
+/****** Joomla Templates ******/
+/******************************/
+#header-outer { height: 65px; padding: 10px 0px; position: fixed; width: 100%; }
+#header-outer.affix { padding: 0px; z-index: 9; }
+#header-spacer { display: block; height: 85px; }
+#header-inner, #banner-inner, #advert-inner, #upper-inner, #body-inner, #bottom-inner, #footer-inner, #copyright-inner { width: 970px; margin: 0 auto; padding: 0px 10px; }
+#banner-float { float: left; width: 100%; padding: 0px 0px 15px 0px; }
+#wide-float { float: left; width: 100%; padding: 0px 0px 15px 0px; }
+/******************************/
+/****** Joomla Templates ******/
+/******************************/
+#body-right-only { float: left; width: 650px; }
+#body-left-only { float: right; width: 650px; }
+#body-left-right { float: left; width: 530px; margin-left: 20px; }
+#body-right-center { float: left; width: 700px; }
+#body-left-center { float: right; width: 700px; }
+#body-left-right-center { float: left; width: 530px; margin-left: 20px; }
+#right-right-only { float: right; width: 300px; }
+#left-left-only { float: left; width: 300px; }
+#left-left-right { float: left; width: 200px; }
+#right-left-right { float: right; width: 200px; }
+#right-right-center { float: right; width: 250px; }
+#left-left-center { float: left; width: 250px; }
+#left-left-right-center { float: left; width: 200px; }
+#right-left-right-center { float: right; width: 200px; }
+.centerright #layer-right-center { float: left; width: 480px; }
+.centerright #center-right-center { float: right; width: 200px; }
+.centerleft #layer-right-center { float: right; width: 480px; }
+.centerleft #center-right-center { float: left; width: 200px; }
+.centerright #layer-left-center { float: left; width: 480px; }
+.centerright #center-left-center { float: right; width: 200px; }
+.centerleft #layer-left-center { float: right; width: 480px; }
+.centerleft #center-left-center { float: left; width: 200px; }
+.centerright #layer-left-right-center { float: left; width: 310px; }
+.centerright #center-left-right-center { float: right; width: 200px; }
+.centerleft #layer-left-right-center { float: right; width: 310px; }
+.centerleft #center-left-right-center { float: left; width: 200px; }
+.centerright #layer-center-only { float: left; width: 750px; }
+.centerright #center-center-only { float: right; width: 200px; }
+.centerleft #layer-center-only { float: right; width: 750px; }
+.centerleft #center-center-only { float: left; width: 200px; }
+/******************************/
+/****** Joomla Templates ******/
+/******************************/
+.logo { height: 65px; }
+#logo { float: left; }
+#copyright, #designer { text-align: center; }
+#spacer { height: 20px; }
+#copyright { float: left; padding: 10px 0px 20px 0px; }
+#designer { float: right; padding: 10px 0px 20px 0px; }
+/******************************/
+/******* Joomla Default *******/
+/******************************/
+body { margin: 0px; font-size: 14px; line-height: 1.6; }
+p { margin: 15px 0px; }
+ul.menu, ul.menu ul, ul.menu ul ul, .pagination ul, .actions li, #login-form ul, ul.dropdown-menu, ul.breadcrumb, ul.pagenav, ul.category-module { list-style: none; padding: 0; margin: 0; }
+img { border: none; padding: 0; margin: 0; }
+.clr { clear: both; }
+h1, h2, h3, h4, h5 { margin: 0px;}
+h1 { font-size: 24px; }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+form input, form select, textarea { font-size: 15px; }
+/******************************/
+/******* Joomla Default *******/
+/******************************/
+.fontfamily1, .fontfamily1 .inputbox, .fontfamily1 input.button, .fontfamily1 textarea { font-family: Arial, Helvetica, sans-serif; }
+.fontfamily2, .fontfamily2 .inputbox, .fontfamily2 input.button, .fontfamily2 textarea { font-family: "Times New Roman", Times, serif; }
+.fontfamily3, .fontfamily3 .inputbox, .fontfamily3 input.button, .fontfamily3 textarea { font-family: "Courier New", Courier, monospace; }
+.fontfamily4, .fontfamily4 .inputbox, .fontfamily4 input.button, .fontfamily4 textarea { font-family: "Georgia", Times New Roman, Times, serif; }
+.fontfamily5, .fontfamily5 .inputbox, .fontfamily5 input.button, .fontfamily5 textarea { font-family: "Verdana", Arial, Helvetica, sans-serif; }
+.fontfamily6, .fontfamily6 .inputbox, .fontfamily6 input.button, .fontfamily6 textarea { font-family: "Geneva", Arial, Helvetica, sans-serif; }
+.fontfamily7, .fontfamily7 .inputbox, .fontfamily7 input.button, .fontfamily7 textarea { font-family: "Book Antiqua"; }
+/******************************/
+/******* Joomla Default *******/
+/******************************/
+.page-header h1, .item-page .page-header h2, .contact h1 { font-size: 20px; padding: 0px 0px 5px 0px; margin: 0px 0px 10px 0px; }
+.blog-featured h2.item-title, .blog .page-header h2, .contact h2 { font-size: 18px; }
+.dropdown-menu li { display: inline; margin: 0px 10px 0px 0px; }
+dl.article-info dd { padding: 0; margin: 0; }
+.newsflash-title { margin: 10px 0px 0px 0px; }
+.pagination { text-align: center; float: left; width: 100%; margin: 0px 0px 15px 0px; }
+.pagination li { display: inline; }
+li.pagination-page { display: inline; }
+.pagination .pagenav { padding: 5px 10px; margin: 0px 2px; }
+ul.pagenav .previous { float: left; margin: 0px 0px 15px 0px; }
+ul.pagenav .next { float: right; margin: 0px 0px 15px 0px; }
+p.counter { margin-top: -10px; }
+p.readmore { margin: 0px; }
+p.readmore a { padding: 5px 10px; }
+p.readmore { text-align: right; }
+.items-row { clear: both; }
+/******************************/
+/******* Joomla Default *******/
+/******************************/
+.tooltip { position: absolute; z-index: 1030; display: block; font-size: 12px; line-height: 1.4; opacity: 0; filter: alpha(opacity=0); visibility: visible; }
+.tooltip.in { opacity: .8; filter: alpha(opacity=80); }
+.tooltip.top { padding: 5px 0; margin-top: -3px; }
+.tooltip-inner { max-width: 200px; padding: 8px; color: #fff; text-align: center; text-decoration: none; background-color: #000; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.tooltip-arrow { position: absolute; width: 0; height: 0; border-color: transparent; border-style: solid; }
+.tooltip.top .tooltip-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-color: #000; border-width: 5px 5px 0; }
+/******************************/
+/******* Joomla Default *******/
+/******************************/
+#system-message { padding: 5px 10px 10px 10px; background: #111111; color: #FFFFFF; }
+.alert-message .close { float: right; display: block; }
+.alert-warning .close { float: right; }
+#system-message p { margin: 0px; }
+/******************************/
+/******* Joomla Default *******/
+/******************************/
+#adminForm ul.nav-tabs { padding: 0; margin: 0px 0px 10px 0px; }
+#adminForm fieldset { padding: 0px; border: none; }
+#adminForm .nav-tabs { margin-left: 0; margin-bottom: 18px; list-style: none; }
+#adminForm .nav-tabs > li > a { display: block; }
+#adminForm .nav-tabs:before, #adminForm .nav-tabs:after { display: table; content: ""; line-height: 0; }
+#adminForm .nav-tabs:after { clear: both; }
+#adminForm .nav-tabs > li { float: left; }
+#adminForm .nav-tabs > li > a { padding-right: 12px; padding-left: 12px; margin-right: 2px; line-height: 14px; }
+#adminForm .nav-tabs > li { margin-bottom: -1px; }
+#adminForm .nav-tabs > li > a { padding-top: 8px; padding-bottom: 8px; line-height: 18px; border: 1px solid transparent; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; }
+#adminForm .nav-tabs > .active > a, #adminForm .nav-tabs > .active > a:hover, #adminForm .nav-tabs > .active > a:focus { cursor: default; }
+.tab-content > .tab-pane { display: none; }
+.tab-content > .active { display: block; }
+/******************************/
+/******* Joomla Default *******/
+/******************************/
+.btn-toolbar button.btn { padding: 5px 10px; display: inline; margin: 5px 0px; }
+.btn-toolbar a.btn { padding: 6px 10px; margin: 0px 2px 10px 2px; display: inline; }
+#adminForm .pull-left { float: left; padding: 10px 0px 15px 0px; }
+#adminForm .pull-right { float: right; padding: 10px 0px 15px 0px; }
+@font-face { font-family: 'IcoMoon'; src: url('../../../media/jui/fonts/IcoMoon.eot'); src: url('../../../media/jui/fonts/IcoMoon.eot?#iefix') format('embedded-opentype'), url('../../../media/jui/fonts/IcoMoon.woff') format('woff'), url('../../../media/jui/fonts/IcoMoon.ttf') format('truetype'), url('../../../media/jui/fonts/IcoMoon.svg#IcoMoon') format('svg'); font-weight: normal; font-style: normal; }
+[class^="icon-"]:before, [class*=" icon-"]:before { font-family: 'IcoMoon'; font-style: normal; speak: none; }
+.tab-pane { float: left; width: 100%; }
+.control-group .inputbox { border: 1px solid #c0c0c0; padding: 3px; width: 250px; }
+.control-label { margin: 10px 0px 5px 0px; }
+.icon-calendar:before { content: "\43"; }
+.icon-calendar-2:before { content: "\44"; }
+.icon-calendar-3:before { content: "\e273"; }
+#adminForm .editor { margin: 10px 0px 0px 0px; }
+#adminForm fieldset { margin: 0px 0px 15px 0px; }
+/******************************/
+/******* Joomla Default *******/
+/******************************/
+#form-login-username, #form-login-password { margin-bottom: 10px; }
+#login-form .inputbox { padding: 4px; width: 94%; border: 1px solid #c0c0c0; }
+#jform_name, #jform_username, #jform_password1, #jform_password2, #jform_email1, #jform_email2, #jform_email { padding: 4px; width: 250px; border: 1px solid #c0c0c0; }
+#member-registration, #user-registration { margin-bottom: 15px; }
+#member-registration fieldset, #user-registration fieldset { margin-bottom: 10px; }
+#login-form ul { margin-top: 10px; }
+/******************************/
+/******* Joomla Default *******/
+/******************************/
+.search .inputbox { padding: 3px; border: 1px solid #c0c0c0; }
+.search .form-limit { text-align: center; margin-top: 10px; }
+.result-created, .result-category, .result-text { padding: 0; margin: 0; }
+.result-created { margin-bottom: 10px; }
+#searchForm #ordering, #searchForm #limit { padding: 3px; }
+.highlight { color: #000000; }
+#searchForm { color: #000000; }
+/******************************/
+/******* Joomla Default *******/
+/******************************/
+#contact-form { margin: 15px 0px; }
+#jform_contact_name, #jform_contact_email, #jform_contact_emailmsg { padding: 4px; width: 250px; border: 1px solid #c0c0c0; }
+#jform_contact_message { padding: 4px; width: 94%; height: 250px; border: 1px solid #c0c0c0; }
+.contact h3 { padding: 3px 10px; }
+.contact h2 { margin-bottom: 15px; }
+.contact a.accordion-toggle { display: block; padding: 5px 10px; margin: 0px 0px 15px 0px; }
+/******************************/
+/******* Joomla Default *******/
+/******************************/
+input.button, button.button, #member-registration button.btn, #user-registration button.btn, #contact-form button.btn { padding: 4px 10px; }
+/******************************/
+/******* Joomla Config ********/
+/******************************/
+h3.title { padding: 0px 0px 5px 0px; margin: 0px 0px 10px 0px; }
+.advert .menu a, .upper .menu a, .user .menu a, .inside .menu a, .bottom .menu a, .footer .menu a { display: block; padding: 4px 0px; }
+/******************************/
+/******* Joomla Config ********/
+/******************************/
+#right-right-only .moduletable, #right-right-only .moduletable_menu, #left-left-only .moduletable, #left-left-only .moduletable_menu, #left-left-right .moduletable, #left-left-right .moduletable_menu, #right-left-right .moduletable, #right-left-right .moduletable_menu, #right-right-center .moduletable, #right-right-center .moduletable_menu, #left-left-center .moduletable, #left-left-center .moduletable_menu, #left-left-right-center .moduletable, #left-left-right-center .moduletable_menu, #right-left-right-center .moduletable, #right-left-right-center .moduletable_menu, #center-right-center .moduletable, #center-right-center .moduletable_menu, #center-left-center .moduletable, #center-left-center .moduletable_menu, #center-left-right-center .moduletable, #center-left-right-center .moduletable_menu, #center-center-only .moduletable, #center-center-only .moduletable_menu { padding: 0px 0px 15px 0px; }
+#right-right-only .menu li a, #left-left-only .menu li a, #left-left-right .menu li a, #right-left-right .menu li a, #right-right-center .menu li a, #left-left-center .menu li a, #left-left-right-center .menu li a, #right-left-right-center .menu li a, #center-right-center .menu li a, #center-left-center .menu li a, #center-left-right-center .menu li a, #center-center-only .menu li a, #right-right-only .category-module li a, #left-left-only .category-module li a, #left-left-right .category-module li a, #right-left-right .category-module li a, #right-right-center .category-module li a, #left-left-center .category-module li a, #left-left-right-center .category-module li a, #right-left-right-center .category-module li a, #center-right-center .category-module li a, #center-left-center .category-module li a, #center-left-right-center .category-module li a, #center-center-only .category-module li a { padding: 3px 10px; margin: 2px 0px; display: block; }
+/******************************/
+/******* Joomla Toolbar *******/
+/******************************/
+#navigation { float: right; margin: 9px 0px 0px 0px; }
+/******************************/
+/******* Joomla Toolbar *******/
+/******************************/
+#toolbar .menu a { font-size: 15px; font-weight: normal; }
+#toolbar .menu li { float: left; position:relative; margin: 0px 0px 0px 25px; padding: 0px; border-bottom: none; line-height: 3.35; }
+#toolbar .menu li.active a { }
+#toolbar ul.menu a:hover { }
+/******************************/
+/******* Joomla Toolbar *******/
+/******************************/
+#toolbar .menu li li a { font-size: 14px; font-weight: normal; }
+#toolbar .menu ul { left:-999em; position:absolute; z-index: 99; width: 180px; padding: 5px 0px 10px 0px; border-radius: 0px 0px 7px 7px; }
+#toolbar .menu ul li { width: 160px; padding: 2px 10px; background-color: none; position:relative;  margin-left: 0px; line-height: 1.8; }
+#toolbar li:hover ul { left: auto; }
+#toolbar ul.menu li li:hover { background: none; }
+#toolbar ul.menu li.active li a { background: none !important; }
+/******************************/
+/******* Joomla Toolbar *******/
+/******************************/
+#toolbar .menu li li li a { font-size: 14px; font-weight: normal; }
+#toolbar .menu ul ul { margin: -1.8em 0 0 11.0em; position: absolute; z-index: 99; height: auto; padding: 0px; border-radius: 7px; }
+#toolbar ul.menu li li li:hover { }
+/******************************/
+/******* Joomla Toolbar *******/
+/******************************/
+#toolbar ul.menu li:hover ul ul { left: -999em; }
+#toolbar ul.menu li li:hover ul { left: auto; }
+/******************************/
+/******* Joomla Modules *******/
+/******************************/
+#body-right-only .cols-4 .column-1, #body-left-only .cols-4 .column-1 { width: 152px; float: left; }
+#body-right-only .cols-4 .column-2, #body-left-only .cols-4 .column-2 { width: 152px; float: left; margin-left: 14px; }
+#body-right-only .cols-4 .column-3, #body-left-only .cols-4 .column-3 { width: 152px; float: left; margin-left: 14px; }
+#body-right-only .cols-4 .column-4, #body-left-only .cols-4 .column-4 { width: 152px; float: right; }
+#body-right-only .cols-3 .column-1, #body-left-only .cols-3 .column-1 { width: 206px; float: left; }
+#body-right-only .cols-3 .column-2, #body-left-only .cols-3 .column-2 { width: 206px; float: left; margin-left: 16px; }
+#body-right-only .cols-3 .column-3, #body-left-only .cols-3 .column-3 { width: 206px; float: right; }
+#body-right-only .cols-2 .column-1, #body-left-only .cols-2 .column-1 { width: 317px; float: left; }
+#body-right-only .cols-2 .column-2, #body-left-only .cols-2 .column-2 { width: 317px; float: right; }
+#body-right-only .cols-1 .column-1, #body-left-only .cols-1 .column-1 { width: 650px; float: left; }
+#body-left-right .cols-3 .column-1 { width: 166px; float: left; }
+#body-left-right .cols-3 .column-2 { width: 166px; float: left; margin-left: 16px; }
+#body-left-right .cols-3 .column-3 { width: 166px; float: right; }
+#body-left-right .cols-2 .column-1 { width: 257px; float: left; }
+#body-left-right .cols-2 .column-2 { width: 257px; float: right; }
+#body-left-right .cols-1 .column-1 { width: 530px; float: left; }
+#body-wide .cols-5 .column-1 { width: 182px; float: left; }
+#body-wide .cols-5 .column-2 { width: 182px; float: left; margin-left: 15px; }
+#body-wide .cols-5 .column-3 { width: 182px; float: left; margin-left: 15px; }
+#body-wide .cols-5 .column-4 { width: 182px; float: left; margin-left: 15px; }
+#body-wide .cols-5 .column-5 { width: 182px; float: right; }
+#body-wide .cols-4 .column-1 { width: 232px; float: left; }
+#body-wide .cols-4 .column-2 { width: 232px; float: left; margin-left: 14px; }
+#body-wide .cols-4 .column-3 { width: 232px; float: left; margin-left: 14px; }
+#body-wide .cols-4 .column-4 { width: 232px; float: right; }
+#body-wide .cols-3 .column-1 { width: 314px; float: left; }
+#body-wide .cols-3 .column-2 { width: 314px; float: left; margin-left: 14px; }
+#body-wide .cols-3 .column-3 { width: 314px; float: right; }
+#body-wide .cols-2 .column-1 { width: 477px; float: left; }
+#body-wide .cols-2 .column-2 { width: 477px; float: right; }
+#body-wide .cols-1 .column-1 { width: 970px; float: left; }
+#body-right-center .cols-2 .column-1, #body-left-center .cols-2 .column-1 { width: 232px; float: left; }
+#body-right-center .cols-2 .column-2, #body-left-center .cols-2 .column-2 { width: 232px; float: right; }
+#body-right-center .cols-1 .column-1, #body-left-center .cols-1 .column-1 { width: 480px; float: left; }
+#body-center-only .cols-4 .column-1 { width: 177px; float: left; }
+#body-center-only .cols-4 .column-2 { width: 177px; float: left; margin-left: 14px; }
+#body-center-only .cols-4 .column-3 { width: 177px; float: left; margin-left: 14px; }
+#body-center-only .cols-4 .column-4 { width: 177px; float: right; }
+#body-center-only .cols-3 .column-1 { width: 240px; float: left; }
+#body-center-only .cols-3 .column-2 { width: 240px; float: left; margin-left: 15px; }
+#body-center-only .cols-3 .column-3 { width: 240px; float: right; }
+#body-center-only .cols-2 .column-1 { width: 367px; float: left; }
+#body-center-only .cols-2 .column-2 { width: 367px; float: right; }
+#body-center-only .cols-1 .column-1 { width: 750px; float: left; }
+#body-left-right-center .cols-1 .column-1 { width: 310px; float: left; }
+#body-right-only .cols-4 .column-1, #body-left-only .cols-4 .column-1, #body-right-only .cols-4 .column-2, #body-left-only .cols-4 .column-2, #body-right-only .cols-4 .column-3, #body-left-only .cols-4 .column-3, #body-right-only .cols-4 .column-4, #body-left-only .cols-4 .column-4, #body-right-only .cols-3 .column-1, #body-left-only .cols-3 .column-1, #body-right-only .cols-3 .column-2, #body-left-only .cols-3 .column-2, #body-right-only .cols-3 .column-3, #body-left-only .cols-3 .column-3, #body-right-only .cols-2 .column-1, #body-left-only .cols-2 .column-1, #body-right-only .cols-2 .column-2, #body-left-only .cols-2 .column-2, #body-right-only .cols-1 .column-1, #body-left-only .cols-1 .column-1, #body-left-right .cols-3 .column-1, #body-left-right .cols-3 .column-2, #body-left-right .cols-3 .column-3, #body-left-right .cols-2 .column-1, #body-left-right .cols-2 .column-2, #body-left-right .cols-1 .column-1, #body-wide .cols-5 .column-1, #body-wide .cols-5 .column-2, #body-wide .cols-5 .column-3, #body-wide .cols-5 .column-4, #body-wide .cols-5 .column-5, #body-wide .cols-4 .column-1, #body-wide .cols-4 .column-2, #body-wide .cols-4 .column-3, #body-wide .cols-4 .column-4, #body-wide .cols-3 .column-1, #body-wide .cols-3 .column-2, #body-wide .cols-3 .column-3, #body-wide .cols-2 .column-1, #body-wide .cols-2 .column-2, #body-wide .cols-1 .column-1, #body-right-center .cols-2 .column-1, #body-left-center .cols-2 .column-1, #body-right-center .cols-2 .column-2, #body-left-center .cols-2 .column-2, #body-right-center .cols-1 .column-1, #body-left-center .cols-1 .column-1, #body-center-only .cols-4 .column-1, #body-center-only .cols-4 .column-2, #body-center-only .cols-4 .column-3, #body-center-only .cols-4 .column-4, #body-center-only .cols-3 .column-1, #body-center-only .cols-3 .column-2, #body-center-only .cols-3 .column-3, #body-center-only .cols-2 .column-1, #body-center-only .cols-2 .column-2, #body-center-only .cols-1 .column-1, #body-left-right-center .cols-1 .column-1 { padding-bottom: 15px; }
+/******************************/
+/******* Joomla Modules *******/
+/******************************/
+.advert99 .first, .footer99 .first, .upper99 .first, .bottom99 .first { width: 970px; float: left; }
+.advert49 .first, .footer49 .first, .upper49 .first, .bottom49 .first { float: left; width: 477px; }
+.advert49 .second, .footer49 .second, .upper49 .second, .bottom49 .second { float: right; width: 477px; }
+.advert33 .first, .footer33 .first, .upper33 .first, .bottom33 .first { float: left; width: 314px; }
+.advert33 .second, .footer33 .second, .upper33 .second, .bottom33 .second { float: left; width: 314px; margin-left: 14px; }
+.advert33 .third, .footer33 .third, .upper33 .third, .bottom33 .third { float: right; width: 314px; }
+.advert24 .first, .footer24 .first, .upper24 .first, .bottom24 .first { float: left; width: 232px; }
+.advert24 .second, .footer24 .second, .upper24 .second, .bottom24 .second { float: left; width: 232px; margin-left: 14px; }
+.advert24 .third, .footer24 .third, .upper24 .third, .bottom24 .third { float: left; width: 232px; margin-left: 14px; }
+.advert24 .forth, .footer24 .forth, .upper24 .forth, .bottom24 .forth { float: right; width: 232px; }
+.advert19 .first, .footer19 .first, .upper19 .first, .bottom19 .first { float: left; width: 182px; }
+.advert19 .second, .footer19 .second, .upper19 .second, .bottom19 .second { float: left; width: 182px; margin-left: 15px; }
+.advert19 .third, .footer19 .third, .upper19 .third, .bottom19 .third { float: left; width: 182px; margin-left: 15px; }
+.advert19 .forth, .footer19 .forth, .upper19 .forth, .bottom19 .forth { float: left; width: 182px; margin-left: 15px; }
+.advert19 .fifth, .footer19 .fifth, .upper19 .fifth, .bottom19 .fifth { float: right; width: 182px; }
+.advert99 .first, .footer99 .first, .upper99 .first, .bottom99 .first, .advert49 .first, .footer49 .first, .upper49 .first, .bottom49 .first, .advert49 .second, .footer49 .second, .upper49 .second, .bottom49 .second, .advert33 .first, .footer33 .first, .upper33 .first, .bottom33 .first, .advert33 .second, .footer33 .second, .upper33 .second, .bottom33 .second, .advert33 .third, .footer33 .third, .upper33 .third, .bottom33 .third, .advert24 .first, .footer24 .first, .upper24 .first, .bottom24 .first, .advert24 .second, .footer24 .second, .upper24 .second, .bottom24 .second, .advert24 .third, .footer24 .third, .upper24 .third, .bottom24 .third, .advert24 .forth, .footer24 .forth, .upper24 .forth, .bottom24 .forth, .advert19 .first, .footer19 .first, .upper19 .first, .bottom19 .first, .advert19 .second, .footer19 .second, .upper19 .second, .bottom19 .second, .advert19 .third, .footer19 .third, .upper19 .third, .bottom19 .third, .advert19 .forth, .footer19 .forth, .upper19 .forth, .bottom19 .forth, .advert19 .fifth, .footer19 .fifth, .upper19 .fifth, .bottom19 .fifth { padding-bottom: 15px; }
+/******************************/
+/******* Joomla Modules *******/
+/******************************/
+#user-right-only .user99 .first, #user-left-only .user99 .first { float: left; width: 650px; }
+#user-right-only .user49 .first, #user-left-only .user49 .first { float: left; width: 317px; }
+#user-right-only .user49 .second, #user-left-only .user49 .second { float: right; width: 317px; }
+#user-right-only .user33 .first, #user-left-only .user33 .first { float: left; width: 206px; }
+#user-right-only .user33 .second, #user-left-only .user33 .second { float: left; width: 206px; margin-left: 16px; }
+#user-right-only .user33 .third, #user-left-only .user33 .third { float: right; width: 206px; }
+#user-left-right .user99 .first { float: left; width: 530px; }
+#user-left-right .user49 .first { float: left; width: 257px; }
+#user-left-right .user49 .second { float: right; width: 257px; }
+#user-left-right .user33 .first { float: left; width: 166px; }
+#user-left-right .user33 .second { float: left; width: 166px; margin-left: 16px; }
+#user-left-right .user33 .third { float: right; width: 166px; }
+#user-wide .user99 .first { float: left; width: 970px; }
+#user-wide .user49 .first { float: left; width: 477px; }
+#user-wide .user49 .second { float: right; width: 477px; }
+#user-wide .user33 .first { float: left; width: 314px; }
+#user-wide .user33 .second { float: left; width: 314px; margin-left: 14px; }
+#user-wide .user33 .third { float: right; width: 314px; }
+#user-center-only .user99 .first { float: left; width: 970px; }
+#user-center-only .user49 .first { float: left; width: 477px; }
+#user-center-only .user49 .second { float: right; width: 477px; }
+#user-center-only .user33 .first { float: left; width: 314px; }
+#user-center-only .user33 .second { float: left; width: 314px; margin-left: 14px; }
+#user-center-only .user33 .third { float: right; width: 314px; }
+#user-right-center .user99 .first, #user-left-center .user99 .first { float: left; width: 700px; }
+#user-right-center .user49 .first, #user-left-center .user49 .first { float: left; width: 342px; }
+#user-right-center .user49 .second, #user-left-center .user49 .second { float: right; width: 342px; }
+#user-right-center .user33 .first, #user-left-center .user33 .first { float: left; width: 224px; }
+#user-right-center .user33 .second, #user-left-center .user33 .second { float: left; width: 224px; margin-left: 14px; }
+#user-right-center .user33 .third, #user-left-center .user33 .third { float: right; width: 224px; }
+#user-left-right-center .user99 .first { float: left; width: 530px; }
+#user-left-right-center .user49 .first { float: left; width: 257px; }
+#user-left-right-center .user49 .second { float: right; width: 257px; }
+#user-left-right-center .user33 .first { float: left; width: 166px; }
+#user-left-right-center .user33 .second { float: left; width: 166px; margin-left: 16px; }
+#user-left-right-center .user33 .third { float: right; width: 166px; }
+#user-right-only .user99 .first, #user-left-only .user99 .first, #user-right-only .user49 .first, #user-left-only .user49 .first, #user-right-only .user49 .second, #user-left-only .user49 .second, #user-right-only .user33 .first, #user-left-only .user33 .first, #user-right-only .user33 .second, #user-left-only .user33 .second, #user-right-only .user33 .third, #user-left-only .user33 .third, #user-left-right .user99 .first, #user-left-right .user49 .first, #user-left-right .user49 .second, #user-left-right .user33 .first, #user-left-right .user33 .second, #user-left-right .user33 .third, #user-wide .user99 .first, #user-wide .user49 .first, #user-wide .user49 .second, #user-wide .user33 .first, #user-wide .user33 .second, #user-wide .user33 .third, #user-center-only .user99 .first, #user-center-only .user49 .first, #user-center-only .user49 .second, #user-center-only .user33 .first, #user-center-only .user33 .second, #user-center-only .user33 .third, #user-right-center .user99 .first, #user-left-center .user99 .first, #user-right-center .user49 .first, #user-left-center .user49 .first, #user-right-center .user49 .second, #user-left-center .user49 .second, #user-right-center .user33 .first, #user-left-center .user33 .first, #user-right-center .user33 .second, #user-left-center .user33 .second, #user-right-center .user33 .third, #user-left-center .user33 .third, #user-left-right-center .user99 .first, #user-left-right-center .user49 .first, #user-left-right-center .user49 .second, #user-left-right-center .user33 .first, #user-left-right-center .user33 .second, #user-left-right-center .user33 .third { padding-bottom: 15px; }
+/******************************/
+/******* Joomla Modules *******/
+/******************************/
+#inside-right-only .inside99 .first, #inside-left-only .inside99 .first { float: left; width: 650px; }
+#inside-right-only .inside49 .first, #inside-left-only .inside49 .first { float: left; width: 317px; }
+#inside-right-only .inside49 .second, #inside-left-only .inside49 .second { float: right; width: 317px; }
+#inside-left-right .inside99 .first { float: left; width: 530px; }
+#inside-left-right .inside49 .first { float: left; width: 257px; }
+#inside-left-right .inside49 .second { float: right; width: 257px; }
+#inside-wide .inside99 .first { float: left; width: 970px; }
+#inside-wide .inside49 .first { float: left; width: 477px; }
+#inside-wide .inside49 .second { float: right; width: 477px; }
+#inside-right-center .inside99 .first, #inside-left-center .inside99 .first { float: left; width: 480px; }
+#inside-right-center .inside49 .first, #inside-left-center .inside49 .first { float: left; width: 232px; }
+#inside-right-center .inside49 .second, #inside-left-center .inside49 .second { float: right; width: 232px; }
+#inside-left-right-center .inside99 .first { float: left; width: 310px; }
+#inside-left-right-center .inside49 .first { float: left; width: 147px; }
+#inside-left-right-center .inside49 .second { float: right; width: 147px; }
+#inside-center-only .inside99 .first { float: left; width: 750px; }
+#inside-center-only .inside49 .first { float: left; width: 367px; }
+#inside-center-only .inside49 .second { float: right; width: 367px; }
+#inside-right-only .inside99 .first, #inside-left-only .inside99 .first, #inside-right-only .inside49 .first, #inside-left-only .inside49 .first, #inside-right-only .inside49 .second, #inside-left-only .inside49 .second, #inside-left-right .inside99 .first, #inside-left-right .inside49 .first, #inside-left-right .inside49 .second, #inside-wide .inside99 .first, #inside-wide .inside49 .first, #inside-wide .inside49 .second, #inside-right-center .inside99 .first, #inside-left-center .inside99 .first, #inside-right-center .inside49 .first, #inside-left-center .inside49 .first, #inside-right-center .inside49 .second, #inside-left-center .inside49 .second, #inside-left-right-center .inside99 .first, #inside-left-right-center .inside49 .first, #inside-left-right-center .inside49 .second, #inside-center-only .inside99 .first, #inside-center-only .inside49 .first, #inside-center-only .inside49 .second { padding-bottom: 15px; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+#header-outer { background: #FFFFFF; }
+#header-outer.affix { box-shadow: 0px 0px 4px #999999; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+body { background: #FFFFFF; }
+.page-header h1, .item-page .page-header h2, .contact h1 { border-bottom: 1px solid #dedede; }
+.pagination .pagenav, p.readmore a { color: #000000; text-decoration: none; background: #f8f8f8; border: 1px solid #dedede; }
+#adminForm .nav-tabs a { color: #000000; text-decoration: none; }
+#adminForm .nav-tabs > li > a:hover, #adminForm .nav-tabs > li > a:focus { border-color: #eee #eee #ddd; }
+#adminForm .nav-tabs { border-bottom: 1px solid #ddd; }
+#adminForm .nav-tabs > .active > a, #adminForm .nav-tabs > .active > a:hover, #adminForm .nav-tabs > .active > a:focus { color: #555; background-color: #fff; border: 1px solid #ddd; border-bottom-color: transparent; }
+.btn-toolbar button.btn { background: #FFFFFF; border: 1px solid #c0c0c0; }
+.btn-toolbar a.btn { color: #000000; text-decoration: none; background: #FFFFFF; border: 1px solid #c0c0c0; }
+#login-form a { color: #000000; text-decoration: none; }
+.result-title a { color: #000000; text-decoration: none; }
+.contact h3 { background: #f8f8f8; border: 1px solid #dedede; }
+.contact-emailto a { color: #000000; text-decoration: none; }
+.contact a.accordion-toggle { color: #000000; text-decoration: none; background: #f8f8f8; border: 1px solid #dedede; }
+input.button, button.button, #member-registration button.btn, #user-registration button.btn, #contact-form button.btn { background: #f8f8f8; border: 1px solid #dedede; }
+#member-registration a.btn { color: #000000; text-decoration: none; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+h3.title { border-bottom: 1px solid #dedede; }
+.advert .menu a, .upper .menu a, .user .menu a, .inside .menu a, .bottom .menu a, .footer .menu a { color: #000000; text-decoration: none; border-bottom: 1px solid #dedede; }
+.newsflash-title a, a.readmore, #designer a, .dropdown-menu li a, .blog-featured h2.item-title a, .blog .page-header h2 a, .contact h2 a, .category-name a { color: #000000; text-decoration: none; }
+#right-right-only .menu li a, #left-left-only .menu li a, #left-left-right .menu li a, #right-left-right .menu li a, #right-right-center .menu li a, #left-left-center .menu li a, #left-left-right-center .menu li a, #right-left-right-center .menu li a, #center-right-center .menu li a, #center-left-center .menu li a, #center-left-right-center .menu li a, #center-center-only .menu li a, #right-right-only .category-module li a, #left-left-only .category-module li a, #left-left-right .category-module li a, #right-left-right .category-module li a, #right-right-center .category-module li a, #left-left-center .category-module li a, #left-left-right-center .category-module li a, #right-left-right-center .category-module li a, #center-right-center .category-module li a, #center-left-center .category-module li a, #center-left-right-center .category-module li a, #center-center-only .category-module li a { color: #000000; text-decoration: none; background: #f8f8f8; border: 1px solid #dedede; }
+/*****************************/
+/*********** STYLES **********/
+/*****************************/
+#toolbar .menu a { color: #000000; text-decoration: none; }
+#toolbar .menu ul { background: #FFFFFF; border-bottom: 1px solid #dedede; border-left: 1px solid #dedede; border-right: 1px solid #dedede; }
+#toolbar .menu ul ul { border-top: 1px solid #dedede; }

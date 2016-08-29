@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Responsive Grid: You can customize class suffix.
+	col-lg		: Large devices Desktops 			 			  (≥1200px)
+	col-md		: Medium devices Desktops  			 			  (≥922px)
+	col-sm 		: Small devices Tablets				 			  (≥768px)
+	col-xs 		: Extra small devices Phones	     			  (<768px)
+	
+ Support Classes : The solution is hidden module and position on desktop,tablets & mobile. You can add class suffix.
+	hidden-lg	: Hidden on Large devices Desktops 			  (≥1200px)
+	hidden-md	: Hidden on Medium devices Desktops  		  (≥922px)
+	hidden-sm 	: Hidden on Small devices Tablets			  (≥768px)
+	hidden-xs 	: Hidden on Extra small devices Phones	      (<768px)
+	
+ Example: Set columns  on Mobile, tablet, desktops
+	Use the extra small and medium device grid classes by adding .col-xs-* .col-md-* to your columns.
+	The full description of the syntax is available on the classes (http://getbootstrap.com/css/#grid-example-mixed-complete)
+ -->
+
+<layout type="lrm">
+	
+	<groups>
+		<group class="col-md-3 col-sm-6 lrm-l" >left</group>
+		<group class="col-md-3 col-sm-6 lrm-r" >right</group>
+		<group
+			class="col-md-6 col-sm-12 lrm-m"
+			noright-class="col-md-9 col-sm-12 lrm-m"
+			noleft-class="col-md-9 col-sm-12 lrm-m"
+			noleftright-class="col-sm-12">main</group>
+	</groups>
+	<blocks>
+		
+		<menu html5tag="nav" order="2" id="yt_menuwrap">
+			<positions>
+				<position class="col-sm-2"  			type="feature">@logo</position>
+				<position class="col-sm-10 col-xs-12" type="modules" style="ytmod" >top1</position>
+				<position class="col-sm-9 col-xs-10"  type="feature">@mainmenu</position>
+				<position class="col-sm-1 col-xs-2" type="modules" style="ytmod" >search</position>
+				
+				
+			</positions>
+		</menu>
+		
+		<spotlight1 html5tag="section" order="3" id="yt_spotlight1">
+			<positions>
+				<position   class="col-sm-12" type="modules"  style="ytmod" >top2</position>
+			</positions>
+		</spotlight1>
+		
+		<breadcrumb html5tag="section" order="4" id="yt_breadcrumb">
+			<positions>
+				<position   class="col-sm-12" type="modules"  style="ytmod" >breadcrumb</position>
+				<position   class="col-sm-12" type="modules"  style="ytmod" >shortcodes</position>
+				
+			</positions>
+		</breadcrumb>
+		
+		
+		<content html5tag="section" order="10" id="content" showDivTop="0" showDivBottom="0">
+			<positions>
+				<position group="left" type="modules"  style="ytmod" >left</position>
+				<position group="right" type="modules"  style="ytmod" >right</position>
+				<position group="main"  type="message"></position>
+				<position group="main"	style="ytmod" type="modules">topmain</position>
+				<position group="main"  type="component">component</position>
+				<position group="main"	style="ytmod" type="modules">bottommain</position>
+				
+			</positions>
+		</content>
+		<spotlight6 html5tag="section" order="11" id="yt_spotlight6">
+			<positions>
+				<position class="col-sm-12" style="ytmod" type="modules">bottom1</position>
+			</positions>
+		</spotlight6>
+		<spotlight7 html5tag="section" order="12" id="yt_spotlight7">
+			<positions>
+				<position class="col-sm-12" style="ytmod" type="modules">bottom2</position>
+			</positions>
+		</spotlight7>
+		<spotlight8 html5tag="section" order="13" id="yt_spotlight8">
+			<positions>
+				<position class="col-sm-3 col-xs-6" style="ytmod" type="modules">bottom3</position>
+				<position class="col-sm-3 col-xs-6" style="ytmod" type="modules">bottom4</position>
+				<position class="col-sm-3 col-xs-6" style="ytmod" type="modules">bottom5</position>
+				<position class="col-sm-3 col-xs-6" style="ytmod" type="modules">bottom6</position>
+			</positions>
+		</spotlight8>
+		<footer html5tag="footer" order="14" id="yt_footer">
+			<positions>
+				<position class="col-sm-8" style="ytmod" type="feature">@copyright</position>
+				<position class="col-sm-4" style="ytmod" type="modules">footer</position>
+			</positions>
+		</footer>
+	</blocks>
+</layout>
